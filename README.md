@@ -24,6 +24,7 @@ Metatron is a bot for the game EVE Online that is designed to be a replacement f
 
 ## Known Issues
 
+* During combat Metatron will spam an exception to the log if the desired target is out of range. This is a visual issue only, functionality is not affected.
 * Dedicated salvager cannot determine if a site is safe or not. You should only start this mode once all sites are cleared.
 * Compression is not yet supported.
 * Starting the bot during a Critical Move (docking, undocking, jumping, etc.) will cause the bot to get stuck. You must restart the bot to fix this.
