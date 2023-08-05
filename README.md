@@ -16,11 +16,7 @@ Metatron is a bot for the game EVE Online that is designed to be a replacement f
   
 ## Installation
 
-1. Clone this repo somewhere on your computer.
-2. Copy the files from the "Metatron" folder to your "Innerspace/.NET Programs" folder.
-    * The folder layout should look like this: `Innerspace\.NET Programs\Metatron.exe`
-3. Launch EVE via Innerspace and type "dotnet metatron" in the console to load the bot.
-4. Join the isxGames Discord to get help, report bugs and stay up to date on new releases: https://discord.gg/RMVaVxS
+1. Visit https://metatronbot.com and follow the setup instructions.
 
 ## Known Issues
 
