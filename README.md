@@ -1,3 +1,8 @@
+![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/isxGames/Metatron/latest/total) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/isxGames/Metatron/total) 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M5OCIV3)
+
+![GitHub commits since latest release](https://img.shields.io/github/commits-since/isxGames/Metatron/latest)
+
 # Metatron
 ### StealthBot Reborn
 
