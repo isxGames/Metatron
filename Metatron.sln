@@ -22,6 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{E07D08CE-E
 		PatcherManifests\isxGamesPatcher_PossibleEwarNpcNames.xml = PatcherManifests\isxGamesPatcher_PossibleEwarNpcNames.xml
 		Data\MissionDatabase.xml = Data\MissionDatabase.xml
 		Data\PossibleEwarNpcNames.xml = Data\PossibleEwarNpcNames.xml
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
