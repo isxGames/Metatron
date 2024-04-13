@@ -25,7 +25,7 @@ jobs:
       run: nuget restore Metatron.sln
 
     - name: Build solution
-      run: msbuild Metatron.sln /p:Configuration=Release /p:OutDir=".\build"
+      run: msbuild Metatron.sln /p:Configuration=Release /p:OutDir="..\build"
 
     - name: Inno Setup
         # You may pin to the exact commit or the version.
@@ -35,7 +35,7 @@ jobs:
         # Path for ISS file
         filepath: Metatron.iss
 
-    - name: Publish Plugin
+    - name: Publish Bot
       uses: softprops/action-gh-release@v2
       with:
         files: |
