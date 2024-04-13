@@ -1,0 +1,3974 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Missions MissionDatabaseVersion="0004" >
+	<Mission Name="Minmatar Plot (1 of 3)">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Minmatar Plot (2 of 3)">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Minmatar Plot (3 of 3)">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="Kill">
+						<TargetName>Minmatar Contact</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Communications Cold War">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Communications tower</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline Mission -->
+	<Mission Name="Whispers in the Dark - First Contact (1 of 4)" RatTypes="Sansha">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline Mission -->
+	<Mission Name="Whispers in the Dark - Lay And Pray (2 of 4)" RatTypes="Sansha">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline Mission -->
+	<Mission Name="Whispers in the Dark - The Outpost (4 of 4)" RatTypes="Sansha">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Workers' Quarters</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline Mission -->
+	<Mission Name="Nine Tenths Of The Wormhole" RatTypes="Sansha">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline Mission -->
+	<Mission Name="Lamb Among Lions" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- SToryline Mission -->
+	<Mission Name="Hidden Hope" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom">
+						<DoNotKillNames>
+							<DoNotKillName>Captain Baldrin</DoNotKillName>
+							<DoNotKillName>Operation Hope Convoy</DoNotKillName>
+						</DoNotKillNames>
+					</Action>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom">
+						<DoNotKillNames>
+							<DoNotKillName>Captain Baldrin</DoNotKillName>
+							<DoNotKillName>Operation Hope Convoy</DoNotKillName>
+						</DoNotKillNames>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Retribution">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName> Outpost</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="What Comes Around Goes Around">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Eliminate the Pirate Campers">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Angel Extravaganza" RatTypes="Angel">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Serpentis Extravaganza" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom">
+						<DoNotKillNames>
+							<DoNotKillName>Krayek Sarpanti</DoNotKillName>
+						</DoNotKillNames>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Krayek Sarpanti</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom">
+						<DoNotKillNames>
+							<DoNotKillName>Krayek Sarpanti</DoNotKillName>
+						</DoNotKillNames>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Krayek Sarpanti</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom">
+						<DoNotKillNames>
+							<DoNotKillName>Krayek Sarpanti</DoNotKillName>
+						</DoNotKillNames>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Krayek Sarpanti</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom">
+						<DoNotKillNames>
+							<DoNotKillName>Krayek Sarpanti</DoNotKillName>
+						</DoNotKillNames>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Guristas Extravaganza" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Technological Secrets (1 of 3)" RatTypes="Angel">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom">
+						<TimeoutSeconds>120</TimeoutSeconds>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="ClearRoom">
+						<TimeoutSeconds>120</TimeoutSeconds>
+					</Action>
+					<Action Name="ClearRoom">
+						<TimeoutSeconds>120</TimeoutSeconds>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Technological Secrets (3 of 3)">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom">
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Freedom Must not Prevail">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Letters From Dalamaid">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Cut-Throat Competition" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Repair </TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Success Comes At A Price" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Unauthorized Military Presence">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName> Personnel Transport Wreck</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName> Personnel Transport Wreck</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName> Personnel Transport Wreck</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName> Personnel Transport Wreck</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Smuggler Interception">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName> Personnel Transport Wreck</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName> Personnel Transport Wreck</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName> Personnel Transport Wreck</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName> Personnel Transport Wreck</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Spy Stash">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName> Officer's Quarters</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Mannar Mining Colony" RatTypes="Drones">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Parts Container</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Silence The Informant" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Blockade">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<PossibleTriggerName> Leader</PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<PossibleTriggerName> Leader</PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<!-- serpentis -->
+							<PossibleTriggerName> Leader</PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<!-- serpentis -->
+							<!-- <PossibleTriggerNames> Vice Admiral</PossibleTriggerNames> -->
+							<PossibleTriggerName> Admiral</PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Rogue Drone Harassment" RatTypes="Drones">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Approach">
+						<TargetName>Acceleration Gate</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="Kill">
+						<TargetName> Mother Drone</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom">
+						<DoNotKillNames>
+							<DoNotKillName> Mother Drone</DoNotKillName>
+						</DoNotKillNames>
+					</Action>
+					<Action Name="Kill">
+						<TargetName> Mother Drone</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom">
+						<DoNotKillNames>
+							<DoNotKillName> Mother Drone</DoNotKillName>
+						</DoNotKillNames>
+					</Action>
+					<Action Name="Kill">
+						<TargetName> Mother Drone</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom">
+						<DoNotKillNames>
+							<DoNotKillName> Mother Drone</DoNotKillName>
+						</DoNotKillNames>
+					</Action>
+					<Action Name="Kill">
+						<TargetName> Mother Drone</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom">
+						<DoNotKillNames>
+							<DoNotKillName> Mother Drone</DoNotKillName>
+						</DoNotKillNames>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Pirate Invasion">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Cargo Delivery">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Warehouse</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Warehouse</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Warehouse</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Warehouse</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Warehouse</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Warehouse</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Warehouse</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Warehouse</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Score">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Missing Convoy" RatTypes="Drones">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Powerful EM Forcefield</TargetName>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Lesser Drone Hive</TargetName>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Drone Lookout</TargetName>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline Mission -->
+	<Mission Name="Covering Your Tracks" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Black Market Hub" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Docked Bestower</TargetName>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+						<NearWreck>Shipyard</NearWreck>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Rogue Slave Trader (1 of 2)">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Slave Pen</TargetName>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Slave Pen</TargetName>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Downing The Slavers (2 of 2)">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Serpentis Spies" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom">
+						<TimeoutSeconds>10</TimeoutSeconds>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom">
+						<TimeoutSeconds>10</TimeoutSeconds>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Sansha Spies" RatTypes="Sansha">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Blood Raider Spies" RatTypes="Blood">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Gone Berserk" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="No Excuse" RatTypes="Gallente">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="Kill">
+						<TargetName>Monument</TargetName>
+						<TypeID>16787</TypeID>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Intercept The Pirate Smugglers">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom">
+						<TimeoutSeconds>240</TimeoutSeconds>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline Mission -->
+	<Mission Name="A Force to Be Reckoned With">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Mordus Headhunters" RatTypes="Mordus">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Break Their Will">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="Kill">
+						<TargetName>Repair Station</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Repair Station</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Repair Station</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="Kill">
+						<TargetName>Repair Station</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Repair Station</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Repair Station</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Damsel In Distress" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<PossibleTriggerName>Kruul</PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Kruul's Pleasure Hub</TargetName>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<PossibleTriggerName>Kruul</PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Kruul's Pleasure Hub</TargetName>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<PossibleTriggerName>Kruul</PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Kruul's Pleasure Garden</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Kruul's Pleasure Garden</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Kruul's Pleasure Garden</TargetName>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Kruul's Pleasure Garden</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Kruul's Pleasure Garden</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Kruul's Pleasure Garden</TargetName>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Portal To War (1 of 5)" RatTypes="Drones">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Operation Hamstring" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Armory</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Seven's Prison Facility" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Seek and Destroy">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Stop The Thief" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<PossibleTriggerName>Mercenary Overlord</PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Duo of Death">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Down with the Legion" RatTypes="Mordus">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom">
+						<TimeoutSeconds>180</TimeoutSeconds>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Guristas Strike - Ambush In The Dark (1 of 10)" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Guristas Strike - The Kidnapping (3 of 10)" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>'s Habitat</TargetName>
+					</Action>
+					<Action Name="Loot">
+						<ItemName>'s Keycard</ItemName>
+						<GroupID>12</GroupID>
+					</Action>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Guristas Strike - Incriminating Evidence (5 of 10)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Guristas Strike - The Secret Meeting (7 of 10)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Guristas Strike - Defend The Civilian Convoy (8 of 10)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Guristas Strike - Retrieve The Prisoners (9 of 10)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline Mission -->
+	<Mission Name="Guristas Strike - The Final Battle (10 of 10)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Central Control Hub</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Kidnappers Strike - Ambush In The Dark (1 of 10)" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Kidnappers Strike - The Kidnapping (3 of 10)" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>'s Habitat</TargetName>
+					</Action>
+					<Action Name="Loot">
+						<ItemName>'s Keycard</ItemName>
+						<GroupID>12</GroupID>
+					</Action>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Kidnappers Strike - Incriminating Evidence (5 of 10)">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Kidnappers Strike - The Secret Meeting  (7 of 10)">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Kidnappers Strike - Defend The Civilian Convoy (8 of 10)">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Kidnappers Strike - Retrieve The Prisoners (9 of 10)">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline Mission -->
+	<Mission Name="Kidnappers Strike - The Final Battle (10 of 10)">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="Kill">
+						<TargetName>Central Communication Tower</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Eliminate a Pirate Nuisance">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Furrier Fiasco" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Acceleration Gate</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="Kill">
+						<TargetName>Infested Laboratory</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Worlds Collide">
+		<ActionSets>
+			ama
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom">
+						<PreventSalvageBookmark>true</PreventSalvageBookmark>
+					</Action>
+					<Action Name="NextRoom">
+						<GateName> Base</GateName>
+					</Action>
+					<Action Name="ClearRoom">
+						<PreventSalvageBookmark>true</PreventSalvageBookmark>
+					</Action>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Damaged Heron</TargetName>
+						<PreventSalvageBookmark>true</PreventSalvageBookmark>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom">
+						<GateName> Base</GateName>
+					</Action>
+					<Action Name="ClearRoom">
+						<PreventSalvageBookmark>true</PreventSalvageBookmark>
+					</Action>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Damaged Heron</TargetName>
+						<PreventSalvageBookmark>true</PreventSalvageBookmark>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Roving Rogue Drones" RatTypes="Drone">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Fair Play - To the Rescue (1 of 5)" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Fair Play - More Bark (2 of 5)" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Fair Play - Now Bite (3 of 5)" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Fair Play - Slight Advantage (4 of 5)" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom">
+						<TimeoutSeconds>45</TimeoutSeconds>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Fair Play - Turnabout (5 of 5)" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Hidden Stash">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Warehouse</TargetName>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Warehouse</TargetName>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Interstellar Railroad (1 of 4)" RatTypes="Angel">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="Approach">
+						<TargetName>Amarr-Caldari Mediation Center</TargetName>
+						<Distance>1000</Distance>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Interstellar Railroad (3 of 4)" RatTypes="Angel">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="Approach">
+						<TargetName>Amarr Station</TargetName>
+						<Distance>1000</Distance>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Interstellar Railroad (4 of 4)" RatTypes="Angel">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Disgruntled Employee" RatTypes="Angel,Drones">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Extra space due to EVE typo -->
+	<Mission Name="What's in a Name  - Change of Address (1 of 5)">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Caldari Consul</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom">
+						<TimeoutSeconds>20</TimeoutSeconds>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="What's in a Name - Change of Address (1 of 5)" RatTypes="Drones,Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Caldari Consul</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom">
+						<TimeoutSeconds>20</TimeoutSeconds>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Extra space - EVE typo -->
+	<Mission Name="What's in a Name  - Smile When You Call Me That (2 of 5)" RatTypes="Drones,Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Fuel Depot</TargetName>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Gallente Broadcast Tower</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="What's in a Name - Smile When You Call Me That (2 of 5)" RatTypes="Drones,Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Fuel Depot</TargetName>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Gallente Broadcast Tower</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="What's in a Name - Poke (3 of 5)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="Approach">
+						<TargetName>Federation Praktor </TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="What's in a Name - Thorny (4 of 5)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="Approach">
+						<TargetName>Federation Navy Station</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Drone Infestation" RatTypes="Drones">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Drone Silo</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Drone Silo</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="After The Seven (1 of 5) &quot;Replacement&quot;" RatTypes="Serpentis,Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="After The Seven (2 of 5) &quot;Company&quot;" RatTypes="Serpentis,Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="After The Seven (3 of 5) &quot;Idiot&quot;" RatTypes="Serpentis,Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Phenod's Broke-Ass Destroyer Wreck</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="After The Seven (5 of 5) &quot;Decision&quot;" RatTypes="Serpentis,Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Pirate Intrusion">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Alluring Emanations" RatTypes="Drones">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Carrying AIMEDs" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom">
+						<TimeoutSeconds>15</TimeoutSeconds>
+					</Action>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Approach">
+						<TargetName>Cargo Container</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Pirate Aggression">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Threat From Afar" RatTypes="Angel">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Athran Exigency (1 of 5)" RatTypes="Blood">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Abandoned Mining Station</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Athran Exigency (2 of 5)" RatTypes="Blood">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Athran Exigency (3 of 5)" RatTypes="Blood">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Athran Ammunitions Depot</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Athran Exigency (4 of 5)" RatTypes="Blood">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Athran Exigency (5 of 5)" RatTypes="Blood">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Desperate Measures" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Subspace Data Miner</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Escaped Terrorist" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Lost Records" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Acceleration Gate</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Avenge a Fallen Comrade">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Habitat</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Habitat</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Mysterious Sightings (1 of 4)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Mysterious Sightings (3 of 4)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Mysterious Sightings (4 of 4)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="For the Honor of Rouvenor" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="In The Shadow Of War (1 of 5)" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Damaged Escape Pod</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="In The Shadow Of War (2 of 5)" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Cargo Container</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="In The Shadow Of War (4 of 5)" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<TimeoutSeconds>30</TimeoutSeconds>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Ancient Starbase Ruins</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="In The Shadow Of War (5 of 5)" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Communications Tower</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Communications Tower</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Closing the Gate" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Smuggler Stargate</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Recon (1 of 3)">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="NextRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Recon (2 of 3)">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="Approach">
+						<TargetName>Acceleration Gate (Locked Down)</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="Kill">
+						<BreakOnSpawn>true</BreakOnSpawn>
+						<TargetName>Mining Corporation Headquarters</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Approach">
+						<TargetName>Acceleration Gate (Locked Down)</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+						<Distance>9500</Distance>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Recon (3 of 3)">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="NextRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Save A Mans Career" RatTypes="Drones,Angel">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Save A Man's Career" RatTypes="Drones,Angel">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Soft Drink Wars" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Escaped Spy" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Escaped Dissident">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Undue Attention - Helping the Helpful (2 of 3)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Undue Attention - Closing the Gate (3 of 3)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Gallente Stargate</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Gallente Stargate</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Undue Attention - Poking Around (1 of 3)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Stargate Under Contruction</TargetName>
+						<Distance>2000</Distance>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Undue Attention - A Crazy Plan (3 of 3)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<TimeoutSeconds>75</TimeoutSeconds>
+					<Action Name="NextRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Corporate Records" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Approach">
+						<TargetName>Acceleration Gate</TargetName>
+						<Distance>1000</Distance>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="Loot">
+						<GroupID>306</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Lights Out" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="Kill">
+						<TargetName>Starbase</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="Kill">
+						<TargetName>Starbase</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline Mission -->
+	<Mission Name="An End to Eavesdropping" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Listening Post</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Denial of Reconnaissance" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom">
+						<TimeoutSeconds>120</TimeoutSeconds>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Rancorous Researcher (2 of 5)">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Acceleration Gate</TargetName>
+						<Distance>1000</Distance>
+					</Action>
+					<Action Name="NextRoom" />
+					<Action Name="Approach">
+						<TargetName>Trapped Lab Assistant</TargetName>
+						<Distance>1000</Distance>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Rancorous Researcher (3 of 5)">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Acceleration Gate</TargetName>
+						<Distance>1000</Distance>
+					</Action>
+					<Action Name="NextRoom" />
+					<Action Name="Approach">
+						<TargetName>Beacon 1</TargetName>
+						<Distance>1000</Distance>
+					</Action>
+					<Action Name="Approach">
+						<TargetName>Beacon 2</TargetName>
+						<Distance>1000</Distance>
+					</Action>
+					<Action Name="Approach">
+						<TargetName>Beacon 3</TargetName>
+						<Distance>1000</Distance>
+					</Action>
+					<Action Name="Approach">
+						<TargetName>Beacon 4</TargetName>
+						<Distance>1000</Distance>
+					</Action>
+					<Action Name="Approach">
+						<TargetName>Beacon 5</TargetName>
+						<Distance>1000</Distance>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Rancorous Researcher (4 of 5)">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="Loot">
+						<TargetName>Physical Samples</TargetName>
+						<GroupID>306</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Rancorous Researcher (5 of 5)">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="Kill">
+						<TargetName>Large Container of Explosives</TargetName>
+						<TypeID>29446</TypeID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline Mission -->
+	<Mission Name="Search and Rescue" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Disabled Badger</TargetName>
+						<GroupID>306</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Major - Heist (2 of 5)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Major - Conspiracy (3 of 5)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Major - Conspiracy (4 of 5)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="They, Robots (2 of 5)" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Voting Trail (1 of 3)" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Broadcast</TargetName>
+						<TypeID>26900</TypeID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Voting Trail (3 of 3)">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="For the Birds" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Approach">
+						<TargetName>Acceleration Gate</TargetName>
+						<Distance>1000</Distance>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Break the Slave Trade" RatTypes="Sansha">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<PossibleTriggerName>Imperial Industrial</PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Deadly Arrival" RatTypes="Serpentis,Angel">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Ruined Structure</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Ruined Structure</TargetName>
+						<Distance>12500</Distance>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Abush The Convoy" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Angel Cartel Spies">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Munition Storage</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Assault">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<PossibleTriggerName> Admiral</PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<PossibleTriggerName> Admiral</PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Attack of the Drones" RatTypes="Drones">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom">
+						<TimeoutSeconds>120</TimeoutSeconds>
+						<PossibleTriggerNames>
+							<PossibleTriggerName>Bomber </PossibleTriggerName>
+							<PossibleTriggerName>Defeater </PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Buzz Kill" RatTypes="Angel">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Covering Your Tracks" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="Kill">
+						<TargetName>Ratah</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Desperate Maneuvers" RatTypes="Blood,Serpentis,Guristas">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Evolution" RatTypes="Drones">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Infested Station</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Infested Station</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Infested Ruins" RatTypes="Drones">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="Kill">
+						<TargetName>Lesser Hive</TargetName>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Strain</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Infiltrated Outposts" RatTypes="Drones">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Drone </TargetName>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Drone </TargetName>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Drone </TargetName>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Drone </TargetName>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Drone </TargetName>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Asteroid Prime </TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Intercept The Saboteurs">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Khanid Nobleman" RatTypes="Blood">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Kidnapping" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Massive Attack">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Massive Attack ">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Pirate Slaughter">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Quota Season" RatTypes="Angel">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Drone A</TargetName>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Ritualist Raids" RatTypes="Blood">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Blood Raider Cath</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Serpentis Ship Builders" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Partially Constructed Megathron</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Partially Constructed Megathron</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Normally non-storyline, can be a storyline -->
+	<Mission Name="Shipyard Theft">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Wildcat Strike" RatTypes="Drones">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Good Word" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Acceleration Gate</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom">
+						<DoNotKillNames>
+							<DoNotKillName>Tolmak's Zealot</DoNotKillName>
+						</DoNotKillNames>
+						<TimeoutSeconds>60</TimeoutSeconds>
+					</Action>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Approach">
+						<TargetName>Preacher's Quarters</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Preacher's Quarters</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="New Frontiers - Mad Scientist (2 of 7)" RatTypes="Drones">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill" >
+						<TypeID>18012</TypeID>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot" >
+						<ItemName>Professor Kajurei</ItemName>
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Right Hand of Zazzmatazz" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Outpost Headquarters</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Vengeance">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Violent Expulsion" RatTypes="Blood">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Murderer Brought To Justice" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Preliminary Strike" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Seven's Brothel" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Crooked Cop" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Mission Of Mercy" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<PossibleTriggerNames>
+						<PossibleTriggerName> Lieutenant</PossibleTriggerName>
+					</PossibleTriggerNames>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Small Misunderstanding (1 of 3)" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Buyer</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Small Misunderstanding (2 of 3)" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Small Misunderstanding (3 of 3)" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<TimeoutSeconds>60</TimeoutSeconds>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="No Honor" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<TimeoutSeconds>30</TimeoutSeconds>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Silence Deep as Death" RatTypes="Angel">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<TimeoutSeconds>30</TimeoutSeconds>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Guristas Spies" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Drug Bust">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<TimeoutSeconds>30</TimeoutSeconds>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Customs Interdiction (1 of 2)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<TimeoutSeconds>30</TimeoutSeconds>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Customs Interdiction (2 of 2)" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<TimeoutSeconds>30</TimeoutSeconds>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Friendly Spies" RatTypes="Serpentis">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="Kill">
+						<TargetName>Radio </TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Space Telescope">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Space Telescope</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Attack the Angel Hideout" RatTypes="Angel">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Forbidden Cloning" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Laboratory</TargetName>
+						<GroupID>319</GroupID>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Laboratory</TargetName>
+						<GroupID>319</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Trimming The Fat" RatTypes="Guristas">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<TimeoutSeconds>90</TimeoutSeconds>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Flame of Peace - Heresy (1 of 4)" RatTypes="Blood">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName> habitat</TargetName>
+						<GroupID>319</GroupID>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName> habitat</TargetName>
+						<GroupID>319</GroupID>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Flame of Peace - Cannibalism (3 of 4)" RatTypes="Blood">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName> habitat</TargetName>
+						<GroupID>319</GroupID>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName> habitat</TargetName>
+						<GroupID>319</GroupID>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Flame of Peace - Chosen (4 of 4)" RatTypes="Blood">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Small Armory">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Small Armory</TargetName>
+						<GroupID>319</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Get The Relic" RatTypes="Blood">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Acceleration Gate</TargetName>
+						<BreakOnTargeted>true</BreakOnTargeted>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>306</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Mining Misappropriation" RatTypes="Blood">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Drone Detritus" RatTypes="Drones">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<PossibleTriggerName>Destructor </PossibleTriggerName>
+							<PossibleTriggerName>Wrecker </PossibleTriggerName>
+							<PossibleTriggerName>Decimator </PossibleTriggerName>
+							<PossibleTriggerName>Render </PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+					<Action Name="Loot">
+						<ItemName>Rogue Drone A.I. Core</ItemName>
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Artifact Recovery">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline -->
+	<Mission Name="Patient Zero" RatTypes="Drones">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<PossibleTriggerName>Domination </PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Patient Zero</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<PossibleTriggerName>Domination </PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Patient Zero</TargetName>
+						<BreakOnSpawn>true</BreakOnSpawn>
+					</Action>
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<PossibleTriggerName>Domination </PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+					<Action Name="Kill">
+						<TargetName>Patient Zero</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Dread Pirate Scarlet" RatTypes="Guristas,Blood,Angel">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom">
+						<DoNotKillNames>
+							<DoNotKillName>Merchant</DoNotKillName>
+						</DoNotKillNames>
+						<TimeoutSeconds>45</TimeoutSeconds>
+					</Action>
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+						<ItemName>Gate Key</ItemName>
+					</Action>
+					<Action Name="NextRoom" />
+					<Action Name="Kill">
+						<TargetName>Anire Scarlet</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="Kill">
+						<TargetName>Anire Scarlet</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="Kill">
+						<TargetName>Anire Scarlet</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline -->
+	<Mission Name="Record Cleaning" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom">
+						<GateName>Gate to Patrol Area</GateName>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom">
+						<GateName>Gate to Pirate Base</GateName>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Asteroid Pirate Station</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline -->
+	<Mission Name="The Serpent and the Slaves">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<!-- Storyline -->
+	<Mission Name="A Case of Kidnapping" RatTypes="Mercenary">
+		<ActionSets>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom">
+						<PossibleTriggerNames>
+							<PossibleTriggerName>EoM Hydra</PossibleTriggerName>
+						</PossibleTriggerNames>
+					</Action>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="In the Midst of Deadspace (1 of 5)">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="My Sweet Privateer">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Illegal Activity (1 of 3)">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Illegal Activity (2 of 3)">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Illegal Activity (3 of 3)">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<ItemName>'s Passcard</ItemName>
+						<TargetName> Wreck</TargetName>
+					</Action>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Lasers Softly Beaming">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Save the Miners">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Smash the Supplier">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Control Tower</TargetName>
+					</Action>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Transport Duty">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Opening Moves">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Kill">
+						<TargetName>Fuel Depot</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Elopement">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Prison Transfer">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="Approach">
+						<TargetName>Cell Block D</TargetName>
+						<Distance>4500</Distance>
+					</Action>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Cell Block D</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Probing Question">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Surprise Surprise">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom">
+						<DoNotKillNames>
+							<DoNotKillName>Caldari Stasis Tower</DoNotKillName>
+						</DoNotKillNames>
+						<Action Name="ClearRoom" />
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Freeing the Informant">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<GroupID>12</GroupID>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Anomic Base">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Anomic Team">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+		<Mission Name="Anomic Agent">
+			<ActionSets>
+				<ActionSet Level="4">
+					<Actions>
+						<Action Name="ClearRoom" />
+					</Actions>
+				</ActionSet>
+			</ActionSets>
+		</Mission>
+	</Mission>
+	<Mission Name="Anomic Base">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Anomic Team">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Anomic Agent">
+		<ActionSets>
+			<ActionSet Level="3">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Anomaly (1 of 3)">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Anomaly (2 of 3)">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="The Anomaly (3 of 3)">
+		<ActionSets>
+			<ActionSet Level="4">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Rogue Tech (1 of 2)">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+					<Action Name="Loot">
+						<TargetName>Wreck of: Traitorous Technician</TargetName>
+					</Action>
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Rogue Tech (2 of 2)">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+	<Mission Name="Amarrian Tyrants">
+		<ActionSets>
+			<ActionSet Level="2">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+			<ActionSet Level="1">
+				<Actions>
+					<Action Name="NextRoom" />
+					<Action Name="ClearRoom" />
+				</Actions>
+			</ActionSet>
+		</ActionSets>
+	</Mission>
+</Missions>

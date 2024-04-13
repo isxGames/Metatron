@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Manifest>
+  <Project>
+    <Name>PossibleEwarNpcNames</Name>
+    <Author>stealthy</Author>
+    <Event_FileUpdated>PossibleEwarNpcNames_OnFileUpdated</Event_FileUpdated>
+    <Event_UpdateError>PossibleEwarNpcNames_OnUpdateError</Event_UpdateError>
+    <Event_UpdateComplete>PossibleEwarNpcNames_OnUpdateComplete</Event_UpdateComplete>
+  </Project>
+  <FileInfo>
+    <filename>.NET Programs/Metatron/data/PossibleEwarNpcNames.xml</filename>
+    <url>https://github.com/isxGames/Metatron/releases/download/latest/PossibleEwarNpcNames.xml</url>
+    <version>001</version>
+  </FileInfo>
+</Manifest>

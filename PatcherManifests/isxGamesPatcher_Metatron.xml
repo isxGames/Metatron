@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Manifest>
+  <Project>
+    <Name>Metatron</Name>
+    <Author>NostraThomas</Author>
+    <Event_FileUpdated>Metatron_OnFileUpdated</Event_FileUpdated>
+    <Event_UpdateError>Metatron_OnUpdateError</Event_UpdateError>
+    <Event_UpdateComplete>Metatron_OnUpdateComplete</Event_UpdateComplete>
+  </Project>
+  <FileInfo>
+    <filename>.NET Programs/Metatron.exe</filename>
+    <url>https://github.com/isxGames/Metatron/releases/download/latest/Metatron.exe</url>
+    <version>063</version>
+  </FileInfo>
+</Manifest>

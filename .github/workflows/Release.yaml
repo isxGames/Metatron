@@ -1,0 +1,47 @@
+name: Release
+
+on:
+  push:
+    tags:
+    - '*'
+
+jobs:
+  build:
+    runs-on: windows-latest # .NET Framework 4.8 requires Windows
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup MSBuild Path
+      uses: microsoft/setup-msbuild@v1.0.2
+
+    - name: Setup NuGet.exe
+      uses: NuGet/setup-nuget@v1.0.5
+
+    - name: Restore NuGet packages
+      run: nuget restore Metatron.sln
+
+    - name: Build solution
+      run: msbuild Metatron.sln /p:Configuration=Release -o ./build
+
+    - name: Inno Setup
+        # You may pin to the exact commit or the version.
+        # uses: nadeemjazmawe/inno-setup-action-cli@31fe986b893b62ba38889603be4a74452a8f6362
+      uses: nadeemjazmawe/inno-setup-action-cli@v6.0.5
+      with:
+        # Path for ISS file
+        filepath: Metatron.iss
+
+    - name: Publish Plugin
+      uses: softprops/action-gh-release@v2
+      with:
+        files: |
+            ./Output/MetatronSetup.exe
+            ./build/Metatron.exe
+            ./build/isxGamesPatcher.exe
+            ./Data/*
+            ./PatcherManifests/*
+        token: ${{ secrets.GITHUB_TOKEN }}    

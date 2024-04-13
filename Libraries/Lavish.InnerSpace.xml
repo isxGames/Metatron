@@ -1,0 +1,1317 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lavish.InnerSpace</name>
+    </assembly>
+    <members>
+        <member name="T:InnerSpaceAPI.Delegates.Input.DeviceEnum">
+            <summary>
+            Device enumerator callback
+            </summary>
+            <param name="DeviceID"></param>
+            <param name="Name"></param>
+            <param name="pData"></param>
+            <returns></returns>
+        </member>
+        <member name="T:InnerSpaceAPI.Delegates.Input.InputEnum">
+            <summary>
+            Input enumerator callback
+            </summary>
+            <param name="InputID"></param>
+            <param name="Name"></param>
+            <param name="pData"></param>
+            <returns></returns>
+        </member>
+        <member name="T:InnerSpaceAPI.InnerSpace">
+            <summary>
+            InnerSpace API methods
+            </summary>
+        </member>
+        <member name="M:InnerSpaceAPI.InnerSpace.Echo(System.String)">
+            <summary>
+            Echoes text to the currently active Inner Space console
+            </summary>
+            <param name="Output">Text to output</param>
+        </member>
+        <member name="T:InnerSpaceAPI.InnerSpace.ScreencapFormat">
+            <summary>
+            Specifies an image format for GetScreencap
+            </summary>
+        </member>
+        <member name="F:InnerSpaceAPI.InnerSpace.ScreencapFormat.BMP">
+            <summary>
+            bitmap (no compression)
+            </summary>
+        </member>
+        <member name="F:InnerSpaceAPI.InnerSpace.ScreencapFormat.JPG">
+            <summary>
+            jpeg (lossy compression)
+            </summary>
+        </member>
+        <member name="F:InnerSpaceAPI.InnerSpace.ScreencapFormat.PNG">
+            <summary>
+            portable network graphics (lossless compression)
+            </summary>
+        </member>
+        <member name="M:InnerSpaceAPI.InnerSpace.GetScreencap(InnerSpaceAPI.InnerSpace.ScreencapFormat,System.UInt32@,System.UInt32@,System.Byte[]@)">
+            <summary>
+            Retrieves a screencap in the specified format. 
+            </summary>
+            <param name="format">Use BMP for fastest speed; compression routines are expensive.</param>
+            <param name="width">image width</param>
+            <param name="height">image height</param>
+            <param name="file_in_memory">a file... in memory. your screencap.</param>
+            <returns>true if it worked!</returns>
+        </member>
+        <member name="P:InnerSpaceAPI.InnerSpace.BuildNumber">
+            <summary>
+            Retrieves the current Inner Space build number
+            </summary>
+            
+        </member>
+        <member name="F:InnerSpaceAPI.InnerSpace._GetInnerSpacePath">
+            <summary>
+            Retrieves the path to Inner Space (use Path property)
+            </summary>
+        </member>
+        <member name="P:InnerSpaceAPI.InnerSpace.Path">
+            <summary>
+            Retrieves the path to Inner Space
+            </summary>
+        </member>
+        <member name="M:InnerSpaceAPI.InnerSpace.GetArg``1(System.UInt32,System.IntPtr)">
+            <summary>
+            Retrieves the given argument number, given an argument array token
+            </summary>
+            <typeparam name="T">Type of object to convert the resulting text to (e.g. string, double, int)</typeparam>
+            <param name="arg">Zero-based argument number to retrieve</param>
+            <param name="argv">Argument array token</param>
+            <returns>The given argument number, in the requested format</returns>
+        </member>
+        <member name="T:InnerSpaceAPI.InnerSpace.Input">
+            <summary>
+            Input-related methods
+            </summary>
+        </member>
+        <member name="T:InnerSpaceAPI.InnerSpace.Memory">
+            <summary>
+            Memory-related methods
+            </summary>
+        </member>
+        <member name="M:InnerSpaceAPI.InnerSpace.Memory.WriteMemory(System.UInt32,System.Byte[])">
+            <summary>
+            Writes memory
+            </summary>
+            <param name="BaseAddress"></param>
+            <param name="Data"></param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:InnerSpaceAPI.InnerSpace.Memory.WriteMemory(System.UInt32,System.Byte[],System.UInt32)">
+            <summary>
+            Writes memory
+            </summary>
+            <param name="BaseAddress"></param>
+            <param name="Data"></param>
+            <param name="Size"></param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:InnerSpaceAPI.InnerSpace.Memory.UnwriteMemory(System.UInt32)">
+            <summary>
+            Removes a memory modification, after having been added by WriteMemory
+            </summary>
+            <param name="BaseAddress"></param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="T:LavishScriptAPI.Interfaces.ILSObject">
+            <summary>
+            Interface common across all types of LavishScript objects
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.Interfaces.ILSObject.Invalidate">
+            <summary>
+            Invalidates the object reference (all copies of this object). If this is an object created with NewObject (i.e. a LavishScript "variable"), the LavishScript object is destroyed.
+            </summary>
+        </member>
+        <member name="P:LavishScriptAPI.Interfaces.ILSObject.IsValid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.Interfaces.ILSObject.GetIndex``1(System.String[])">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="indices"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Interfaces.ILSObject.GetMember``1(System.String,System.String[])">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Member"></param>
+            <param name="indices"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Interfaces.ILSObject.GetMember``1(System.String)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Member"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Interfaces.ILSObject.GetMember(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Member"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Interfaces.ILSObject.GetMember(System.String,System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="Member"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Interfaces.ILSObject.GetIndex(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Interfaces.ILSObject.ExecuteMethod(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Method"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Interfaces.ILSObject.ExecuteMethod(System.String,System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="Method"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Interfaces.ILSObject.GetLSType">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Interfaces.ILSObject.GetLSType``1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="P:LavishScriptAPI.Interfaces.ILSObject.LSType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.Interfaces.ILSObject.GetValue``1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="P:LavishScriptAPI.Interfaces.ILSObject.LSReference">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.Interfaces.ILSObject.GetLSReference">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Interfaces.ILSVariableSupported.Instantiate``1(System.String[])">
+            <summary>
+            Instantiates a new object (of type defined by this .NET object) in the LavishScript engine, referencing it as a given .NET type
+            </summary>
+            <typeparam name="T">.NET type to reference the LavishScript object as</typeparam>
+            <param name="ConstructorParameters">Parameters to pass to the LavishScript object's constructor</param>
+            <returns>A .NET reference to the new object</returns>
+        </member>
+        <member name="T:LavishScriptAPI.Delegates.EventTarget">
+            <summary>
+            Used for attaching to a LavishScript event. Make sure to detach with the same delegate object from attaching, or the detach will fail!
+            </summary>
+            <param name="argc">Number of arguments passed to the function in argv</param>
+            <param name="argvToken">Handle to be used with InnerSpaceAPI.InnerSpace.GetArg to retrieve arguments</param>
+            <param name="ThisObject">Reserved. Do not use.</param>
+        </member>
+        <member name="T:LavishScriptAPI.Delegates.InternalCommandTarget">
+            <summary>
+            Used for creating a LavishScript command
+            </summary>
+            <param name="argc">Number of arguments passed to the function in argv</param>
+            <param name="argvToken">Handle to be used with InnerSpaceAPI.InnerSpace.GetArg to retrieve arguments. First argument is always the name of the command.</param>
+            <returns>Negative value for fatal errors (ends a LavishScript script), 0 or greater for success conditions</returns>
+        </member>
+        <member name="T:LavishScriptAPI.Delegates.CommandTarget">
+            <summary>
+            Used for creating a LavishScript command. see LavishScript.Commands
+            </summary>
+            <param name="args">Array of arguments passed to the command, including the command name. The first arg (0) is always the name of the command.</param>
+            <returns>Negative value for fatal errors (ends a LavishScript script), 0 or greater for success conditions</returns>
+        </member>
+        <member name="T:LavishScriptAPI.LavishScriptIterator">
+            <summary>
+            A LavishScript object type for iterating LavishScript object containers.
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptIterator.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Creates a reference to a LavishScriptObject, as a LavishScriptIterator
+            </summary>
+            <param name="Obj"></param>
+        </member>
+        <member name="P:LavishScriptAPI.LavishScriptIterator.Target">
+            <summary>
+            The LavishScript object holding the iterator, as a non-persistent object
+            </summary>
+        </member>
+        <member name="P:LavishScriptAPI.LavishScriptIterator.Key">
+            <summary>
+            The current iteration key, as a non-persistent object
+            </summary>
+        </member>
+        <member name="P:LavishScriptAPI.LavishScriptIterator.Value">
+            <summary>
+            The current iteration value, as a non-ersistent object
+            </summary>
+        </member>
+        <member name="P:LavishScriptAPI.LavishScriptIterator.IsValid">
+            <summary>
+            true if the iterator points to a valid key,value
+            </summary>
+        </member>
+        <member name="P:LavishScriptAPI.LavishScriptIterator.IsReversible">
+            <summary>
+            true if the iterator may go in reverse (with Previous)
+            </summary>
+        </member>
+        <member name="P:LavishScriptAPI.LavishScriptIterator.IsConstant">
+            <summary>
+            true if the iterator is constant. Constant indicates that SetValue will NOT work.
+            </summary>
+        </member>
+        <member name="P:LavishScriptAPI.LavishScriptIterator.IsRandomAccess">
+            <summary>
+            true if the iterator supports random access. RandomAccess indicates that JumpTo will work.
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptIterator.First">
+            <summary>
+            Jumps to the first iteration position
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptIterator.Last">
+            <summary>
+            Jumps to the final iteration position
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptIterator.Next">
+            <summary>
+            Continues to the next (forward) iteration position
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptIterator.Previous">
+            <summary>
+            Continues to the previous (reverse) iteration position
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptIterator.JumpTo(System.String[])">
+            <summary>
+            Jumps to a given key, if random access is enabled (IsRandomAccess) for this iterator
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptIterator.SetValue(System.String[])">
+            <summary>
+            Assigns a value at this position, if the iterator is not constant (IsConstant). This will destroy the original object, creating a new one.
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptIterator.op_Increment(LavishScriptAPI.LavishScriptIterator)">
+            <summary>
+            Continues to the next (forward) iteration position
+            </summary>
+            <param name="Iterator"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptIterator.op_Decrement(LavishScriptAPI.LavishScriptIterator)">
+            <summary>
+            Continues to the previous (reverse) iteration position
+            </summary>
+            <param name="Iterator"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LavishScriptAPI.Point3f">
+            <summary>
+            A LavishScript object type for representing a point in 3 dimensions as floats.
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.Point3f.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScript object as a Point3f
+            </summary>
+            <param name="Obj"></param>
+        </member>
+        <member name="M:LavishScriptAPI.Point3f.Set(System.Double,System.Double,System.Double)">
+            <summary>
+            Sets the Point3f values
+            </summary>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="Z"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Point3f.Adjust(System.Double,System.Double)">
+            <summary>
+            Adjusts the Point3f to a nearby position, given the heading (in degrees) and distance from the original point
+            </summary>
+            <param name="HeadingInDegrees"></param>
+            <param name="Dist"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Point3f.Adjust(System.Double,System.Double,System.Double)">
+            <summary>
+            Adjusts the Point3f to a nearby position, given the heading (in degrees) and distance from the original point.
+            Additionally, modifies the Z value by the given amount
+            </summary>
+            <param name="HeadingInDegrees"></param>
+            <param name="Dist"></param>
+            <param name="HeightOffset"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Point3f.Distance(System.Double,System.Double,System.Double)">
+            <summary>
+            Calculates the distance to a given location in 3 dimensions
+            </summary>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="Z"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Point3f.DistancePointLine(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Calculates the closest distance to a given line segment in 2 dimensions
+            </summary>
+            <param name="X1"></param>
+            <param name="Y1"></param>
+            <param name="X2"></param>
+            <param name="Y2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.Point3f.XYZ(System.Char)">
+            <summary>
+            Retrieves a string containing the X, Y and Z values, separated by a given character
+            </summary>
+            <param name="Separator"></param>
+            <returns></returns>
+        </member>
+        <member name="P:LavishScriptAPI.Point3f.X">
+            <summary>
+            The X coordinate
+            </summary>
+        </member>
+        <member name="P:LavishScriptAPI.Point3f.Y">
+            <summary>
+            The Y coordinate
+            </summary>
+        </member>
+        <member name="P:LavishScriptAPI.Point3f.Z">
+            <summary>
+            The Z coordinate
+            </summary>
+        </member>
+        <member name="T:LavishScriptAPI.LavishScript">
+            <summary>
+            LavishScript API methods
+            </summary>
+        </member>
+        <member name="P:LavishScriptAPI.LavishScript.RequireExplicitFrameLock">
+            <summary>
+            Set true to enforce explicit frame locking. If a LavishScript API call is made without an explicit frame lock, LavishVMAPI.Exceptions.NotLockedException will be thrown.
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.ExecuteCommand(System.String)">
+            <summary>
+            Executes a LavishScript command line, passing the text through the LavishScript parser
+            </summary>
+            <param name="Command">LavishScript command line</param>
+            <returns>0 or greater for success conditions, negative for fatal errors</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.ExecuteTimedCommand(System.UInt32,System.String)">
+            <summary>
+            Executes a LavishScript command line after a specified amount of time in milliseconds, passing the text through the LavishScript parser
+            </summary>
+            <param name="DelayMS">delay, in milliseconds, before executing the LavishScript command line</param>
+            <param name="Command">LavishScript command line</param>
+        </member>
+        <member name="T:LavishScriptAPI.LavishScript.Objects">
+            <summary>
+            LavishScript Objects2 direct access
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Objects.NewObject(System.String)">
+            <summary>
+            Creates a brand new LavishScript object (like a variable in a script)
+            </summary>
+            <param name="Type">Case sensitive name of the object type to create</param>
+            <returns>A brand new LavishScript object, or null</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Objects.NewObject(System.String,System.String[])">
+            <summary>
+            Creates a brand new LavishScript object (like a variable in a script)
+            </summary>
+            <param name="Type">Case sensitive name of the object type to create</param>
+            <param name="indices">Parameters to pass to the object type's Initialize routine</param>
+            <returns>A brand new LavishScript object, or null</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Objects.GetObject``1(System.String,System.String[])">
+            <summary>
+            Retrieves a global Top-Level (having no parent container) LavishScript Object by name, with given parameters, and retrieves the object's .ToString()
+            </summary>
+            <typeparam name="T">.NET type to convert the result text to</typeparam>
+            <param name="Name">Name of the LavishScript Object</param>
+            <param name="indices">Arguments to pass to a dynamic object (or object container)</param>
+            <returns>Converted result string</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Objects.GetObject``1(System.String)">
+            <summary>
+            Retrieves a global Top-Level (having no parent container) LavishScript Object by name, and retrieves the object's .ToString()
+            </summary>
+            <typeparam name="T">.NET type to convert the result text to</typeparam>
+            <param name="Name">Name of the LavishScript Object</param>
+            <returns>Converted result string</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Objects.GetObject(System.String,System.String[])">
+            <summary>
+            Retrieves a temporary reference to a LavishScript object. The reference invalidates itself at the end of the current frame.
+            </summary>
+            <param name="Name">Name of the object to retrieve</param>
+            <param name="indices">Parameters to pass to the object</param>
+            <returns>A temporary reference to a LavishScript object</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Objects.GetObject(System.String)">
+            <summary>
+            Retrieves a temporary reference to a LavishScript object. The reference invalidates itself at the end of the current frame.
+            </summary>
+            <param name="Name">Name of the object to retrieve</param>
+            <returns>A temporary reference to a LavishScript object</returns>
+        </member>
+        <member name="T:LavishScriptAPI.LavishScript.Events">
+            <summary>
+            LavishScript Event methods
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Events.RegisterEvent(System.String)">
+            <summary>
+            Registers a new LavishScript event. If the event already exists (was previously registered), the existing event is used.
+            </summary>
+            <param name="Name">Name for the LavishScript event</param>
+            <returns>The LavishScript event handle for the given event</returns>
+        </member>
+        <member name="F:LavishScriptAPI.LavishScript.Events._RegisterEvent">
+            <summary>
+            Registers a LavishScript event. If the event already exists, the existing event ID is retrieved.
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Events.ExecuteEvent(System.UInt32,System.String[])">
+            <summary>
+            Executes a LavishScript event, with the given parameters
+            </summary>
+            <param name="EventID">ID of the event to execute (retrieve with RegisterEvent)</param>
+            <param name="args">Arguments to pass to the event</param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Events.ExecuteEvent(System.String,System.String[])">
+            <summary>
+            Executes a LavishScript event, with the given parameters
+            </summary>
+            <param name="name">Name of the event to execute</param>
+            <param name="args">Arguments to pass to the event</param>
+            <returns></returns>
+        </member>
+        <member name="F:LavishScriptAPI.LavishScript.Events._ExecuteEvent">
+            <summary>
+            Executes a LavishScript event.
+            </summary>
+        </member>
+        <member name="F:LavishScriptAPI.LavishScript.Events._DetachEventTarget">
+            <summary>
+            Detaches a function from a LavishScript event
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Events.AttachEventTarget(System.UInt32,System.EventHandler{LavishScriptAPI.LSEventArgs})">
+            <summary>
+            Attaches a standard .NET EventHandler to a LavishScript event. Can be later removed with DetachEventTarget.
+            </summary>
+            <param name="EventID">ID of the event to attach to (retrieve with RegisterEvent)</param>
+            <param name="Target">Your event handler</param>
+            <returns>true if successful (presently always)</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Events.AttachEventTarget(System.String,System.EventHandler{LavishScriptAPI.LSEventArgs})">
+            <summary>
+            Attaches a standard .NET EventHandler to a LavishScript event. Can be later removed with DetachEventTarget.
+            </summary>
+            <param name="name">Name of the event to attach to</param>
+            <param name="Target">Your event handler</param>
+            <returns>true if successful (presently always)</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Events.DetachEventTarget(System.UInt32,System.EventHandler{LavishScriptAPI.LSEventArgs})">
+            <summary>
+            Detaches a standard .NET eventHandler from a LavishScript event, after having attached with AttachEventTarget
+            </summary>
+            <param name="EventID">ID of the event to detach from (retrieve with RegisterEvent)</param>
+            <param name="Target">Your event handler</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Events.DetachEventTarget(System.String,System.EventHandler{LavishScriptAPI.LSEventArgs})">
+            <summary>
+            Detaches a standard .NET eventHandler from a LavishScript event, after having attached with AttachEventTarget
+            </summary>
+            <param name="name">name of the event to detach from</param>
+            <param name="Target">Your event handler</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="F:LavishScriptAPI.LavishScript.Events._AttachEventTarget">
+            <summary>
+            Attaches a function to a LavishScript event
+            </summary>
+        </member>
+        <member name="T:LavishScriptAPI.LavishScript.Commands">
+            <summary>
+            Create LavishScript commands with these methods
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Commands.AddCommand(System.String,LavishScriptAPI.Delegates.CommandTarget)">
+            <summary>
+            Adds a command, using the given function as its callback
+            </summary>
+            <param name="command">name of the command</param>
+            <param name="Function">command handler function</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="F:LavishScriptAPI.LavishScript.Commands._AddCommand">
+            <summary>
+            Adds a LavishScript command
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.Commands.RemoveCommand(System.String)">
+            <summary>
+            Removes a command by name, after having been added by AddCommand
+            </summary>
+            <param name="command">command name</param>
+        </member>
+        <member name="F:LavishScriptAPI.LavishScript.Commands._RemoveCommand">
+            <summary>
+            Removes a LavishScript command
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.DataParse``1(System.String,``0@)">
+            <summary>
+            Uses the LavishScript API to retrieve data.
+            </summary>
+            <typeparam name="T">The type to retrieve.</typeparam>
+            <param name="toParse">Data sequence to parse.</param>
+            <param name="obj">Variable by reference, to use for retrieval.</param>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.DataParse``1(System.String,``0@,System.Int32)">
+            <summary>
+            Uses the LavishScript API to retrieve data.
+            </summary>
+            <typeparam name="T">The type to retrieve.</typeparam>
+            <param name="toParse">Data sequence to parse.</param>
+            <param name="obj">Variable by reference, to use for retrieval.</param>
+            <param name="max_buflen">pre-allocated buffer length (max length of string result, etc)</param>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScript.ExecuteCommandEx(System.String[])">
+            <summary>
+            Executes a command, pre-parsed such that it needs no further parsing by LavishScript, including data sequences
+            </summary>
+            <param name="args">First arg must be the name of the command, followed by any parameters to pass to the command</param>
+            <returns>The command's return value. As per standards, negative means failure (would be fatal) and zero or greater means success</returns>
+        </member>
+        <member name="T:LavishScriptAPI.LSEventArgs">
+            <summary>
+            Arguments to LavishScript events
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LSEventArgs.#ctor(System.String[])">
+            <summary>
+            Construct an LSEventArgs object with the given args
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="P:LavishScriptAPI.LSEventArgs.Args">
+            <summary>
+            Each argument passed to the event
+            </summary>
+        </member>
+        <member name="P:LavishScriptAPI.LSEventArgs.Context">
+            <summary>
+            LavishScript Object passed to the event. This will always return an object, but the object may be invalid (use .IsValid)
+            </summary>
+        </member>
+        <member name="T:LavishScriptAPI.LavishScriptObject">
+            <summary>
+            An instance of LavishScriptObject is a safe (and temporary except in the case of LS variables created with NewObject) reference to a LavishScript object
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScript object reference, potentially as a new object type
+            </summary>
+            <param name="Copy">The reference to copy</param>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.Invalidate">
+            <summary>
+            Invalidates the object reference (all copies of this object). If this is an object created with NewObject (i.e. a LavishScript "variable"), the LavishScript object is destroyed.
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.Dispose">
+            <summary>
+            Wraps Invalidate() for IDisposable
+            </summary>
+        </member>
+        <member name="P:LavishScriptAPI.LavishScriptObject.IsValid">
+            <summary>
+            Determines whether the object reference exists
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.IsNullOrInvalid(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Determines whether a LavishScriptObject is null or invalid
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.IsNullOrInvalid(LavishScriptAPI.Interfaces.ILSObject)">
+            <summary>
+            Determines whether a LavishScriptObject is null or invalid
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.GetIndex``1(System.String[])">
+            <summary>
+            Calls the LavishScript object's indexer, converting the text literal result (ToString of the resulting object) to a given object type
+            </summary>
+            <typeparam name="T">Object type to convert the text literal result to</typeparam>
+            <param name="indices">Values to pass to the indexer</param>
+            <returns>The converted literal result, or default(T) if the call does not result in an object</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.GetMember``1(System.String,System.String[])">
+            <summary>
+            Calls a member of the LavishScript object, converting the text literal result (ToString of the resulting object) to a given object type
+            </summary>
+            <typeparam name="T">Object type to convert the text literal result to</typeparam>
+            <param name="Member">Name of the LavishScript object member to call</param>
+            <param name="indices">Values to pass to the member</param>
+            <returns>The converted literal result, or default(T) if the call does not result in an object</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.GetMember``1(System.String)">
+            <summary>
+            Calls a member of the LavishScript object, converting the text literal result (ToString of the resulting object) to a given object type
+            </summary>
+            <typeparam name="T">Object type to convert the text literal result to</typeparam>
+            <param name="Member">Name of the LavishScript object member to call</param>
+            <returns>The converted literal result, or default(T) if the call does not result in an object</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.GetMember(System.String)">
+            <summary>
+            Calls a member of the LavishScript object, retrieving the resulting object itself instead of the resulting object's ToString
+            </summary>
+            <param name="Member">Name of the LavishScript object member to call</param>
+            <returns>The resulting object, or null</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.GetMember(System.String,System.String[])">
+            <summary>
+            Calls a member of the LavishScript object, retrieving the resulting object itself instead of the resulting object's ToString
+            </summary>
+            <param name="Member">Name of the LavishScript object member to call</param>
+            <param name="args">Parameters to pass to the member</param>
+            <returns>The resulting object, or null</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.GetIndex(System.String[])">
+            <summary>
+            Calls the LavishScript object's indexer, retrieving the resulting object itself instead of the resulting object's ToString
+            </summary>
+            <param name="args">Parameters to pass to the indexer</param>
+            <returns>The resulting object, or null</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.ExecuteMethod(System.String)">
+            <summary>
+            Executes a LavishScript object method
+            </summary>
+            <param name="Method">The LavishScript object method to call</param>
+            <returns>true if the call succeeded, in most cases. Can also return false if the object itself was destroyed (e.g. lnavconnection:Remove)</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.ExecuteMethod(System.String,System.String[])">
+            <summary>
+            Executes a LavishScript object method
+            </summary>
+            <param name="Method">The LavishScript object method to call</param>
+            <param name="args">Parameters to pass to the method</param>
+            <returns>true if the call succeeded, in most cases. Can also return false if the object itself was destroyed (e.g. lnavconnection:Remove)</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.GetLSType">
+            <summary>
+            Retrieves a LavishScript object representing the type of the given object
+            </summary>
+            <returns>A LavishScriptObject representing the type of the given object</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.GetLSType``1">
+            <summary>
+            Retrieves the name of the type of this object, with the text literal converted to the given type
+            </summary>
+            <typeparam name="T">Type to convert the text literal to</typeparam>
+            <returns>The name of the type of this object, converted to the given type</returns>
+        </member>
+        <member name="P:LavishScriptAPI.LavishScriptObject.LSType">
+            <summary>
+            The name of the type of this object
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.GetValue``1">
+            <summary>
+            Calls the ToString of the LavishScript object, converting the text literal to the given object type
+            </summary>
+            <typeparam name="T">Type to convert the text literal to</typeparam>
+            <returns>The ToString of the LavishScript object, converted to the given type</returns>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.ToString">
+            <summary>
+            Same as GetValue() with string
+            </summary>
+            <returns>String object containing the text literal value of this object</returns>
+        </member>
+        <member name="P:LavishScriptAPI.LavishScriptObject.LSReference">
+            <summary>
+            A LavishScript data sequence that can be used directly in member/method calls for parameters that require LavishScript objects
+            </summary>
+        </member>
+        <member name="M:LavishScriptAPI.LavishScriptObject.GetLSReference">
+            <summary>
+            Creates a LavishScript data sequence that can be used directly in member/method calls for parameters that require LavishScript objects.
+            </summary>
+            <returns>A LavishScript data sequence that can be used directly in member/method calls for parameters that require LavishScript objects</returns>
+        </member>
+        <member name="T:LavishSettingsAPI.LavishSettings">
+            <summary>
+            The main LavishSettings object
+            See http://www.lavishsoft.com/wiki/index.php/LavishSettings
+            </summary>
+        </member>
+        <member name="M:LavishSettingsAPI.LavishSettings.#ctor">
+            <summary>
+            References the LavishSettings object
+            </summary>
+        </member>
+        <member name="M:LavishSettingsAPI.LavishSettings.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a reference to the LavishSettings object (just use the default constructor)
+            </summary>
+            <param name="lavishObj"></param>
+        </member>
+        <member name="P:LavishSettingsAPI.LavishSettings.Version">
+            <summary>
+            LavishSettings version number
+            </summary>
+        </member>
+        <member name="P:LavishSettingsAPI.LavishSettings.Tree">
+            <summary>
+            The root of the settings tree
+            </summary>
+        </member>
+        <member name="M:LavishSettingsAPI.LavishSettings.SetByID(System.Int32)">
+            <summary>
+            Retrieves any given set, by its ID number
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LavishSettingsAPI.SettingNode">
+            <summary>
+            The base class for Set, Setting, and Comment. Don't instantiate this...
+            See http://www.lavishsoft.com/wiki/index.php/LavishSettings:Setting_Nodes
+            </summary>
+        </member>
+        <member name="M:LavishSettingsAPI.SettingNode.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScriptObject as a SettingNode
+            </summary>
+            <param name="lavishObj"></param>
+        </member>
+        <member name="P:LavishSettingsAPI.SettingNode.Parent">
+            <summary>
+            The parent of this node (which is a Set)
+            </summary>
+        </member>
+        <member name="P:LavishSettingsAPI.SettingNode.Next">
+            <summary>
+            The next sibling from this node
+            </summary>
+        </member>
+        <member name="P:LavishSettingsAPI.SettingNode.Previous">
+            <summary>
+            The previous sibling from this node
+            </summary>
+        </member>
+        <member name="M:LavishSettingsAPI.SettingNode.Remove">
+            <summary>
+            Removes this node
+            </summary>
+        </member>
+        <member name="T:LavishSettingsAPI.Setting">
+            <summary>
+            A Setting.
+            See http://www.lavishsoft.com/wiki/index.php/LavishSettings:Setting_%28Node_Type%29
+            </summary>
+        </member>
+        <member name="M:LavishSettingsAPI.Setting.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScriptObject as a Setting
+            </summary>
+            <param name="lavishObj"></param>
+        </member>
+        <member name="P:LavishSettingsAPI.Setting.Name">
+            <summary>
+            The name of the setting
+            </summary>
+        </member>
+        <member name="M:LavishSettingsAPI.Setting.Rename(System.String)">
+            <summary>
+            Renames the setting
+            </summary>
+            <param name="Name"></param>
+        </member>
+        <member name="M:LavishSettingsAPI.Setting.Set(System.String)">
+            <summary>
+            Sets the value of the setting
+            </summary>
+            <param name="Value"></param>
+        </member>
+        <member name="T:LavishSettingsAPI.Set">
+            <summary>
+            A Set.
+            See http://www.lavishsoft.com/wiki/index.php/LavishSettings:Set_%28Node_Type%29
+            </summary>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScriptObject as a Set
+            </summary>
+            <param name="lavishObj"></param>
+        </member>
+        <member name="P:LavishSettingsAPI.Set.Name">
+            <summary>
+            The name of the set
+            </summary>
+        </member>
+        <member name="P:LavishSettingsAPI.Set.ID">
+            <summary>
+            The unique identifier of the set
+            </summary>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.FindSet(System.String)">
+            <summary>
+            Finds a child set by name
+            </summary>
+            <param name="Name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.FindSetting(System.String)">
+            <summary>
+            Finds a child setting by name
+            </summary>
+            <param name="Name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.FindSetting(System.String,System.String)">
+            <summary>
+            Finds a child setting by name, creating it with a default value if it does not exist already
+            </summary>
+            <param name="Name"></param>
+            <param name="DefaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="P:LavishSettingsAPI.Set.Children">
+            <summary>
+            The first child
+            </summary>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.Import(System.String)">
+            <summary>
+            Imports a LavishSettings XML file into this set. Any existing sets or settings defined in the XML will be replaced
+            </summary>
+            <param name="Filename"></param>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.Export(System.String)">
+            <summary>
+            Exports this set and its children into a LavishSettings XML file
+            </summary>
+            <param name="Filename"></param>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.AddSet(System.String)">
+            <summary>
+            Creates a new child set
+            </summary>
+            <param name="Name"></param>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.AddComment(System.String)">
+            <summary>
+            Creates a new child comment
+            </summary>
+            <param name="Text"></param>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.AddSetting(System.String,System.String)">
+            <summary>
+            Creates a new child setting
+            </summary>
+            <param name="Name"></param>
+            <param name="Value"></param>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.Rename(System.String)">
+            <summary>
+            Renames the set
+            </summary>
+            <param name="Name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.Clear">
+            <summary>
+            Removes all children from the set
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.Sort">
+            <summary>
+            Sorts all children in the set alphabetically
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.GetIterator">
+            <summary>
+            Instantiates an iterator that will iterate ALL children
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.GetSetIterator">
+            <summary>
+            Instantiates an iterator that will iterate child sets
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.GetSettingIterator">
+            <summary>
+            Instantiates an iterator that will iterate child settings
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishSettingsAPI.Set.GetCommentIterator">
+            <summary>
+            Instantiates an iterator that will iterate child comments
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LavishSettingsAPI.Comment">
+            <summary>
+            A Comment.
+            See http://www.lavishsoft.com/wiki/index.php/LavishSettings:Comment_%28Node_Type%29
+            </summary>
+        </member>
+        <member name="M:LavishSettingsAPI.Comment.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScriptObject as a Comment
+            </summary>
+            <param name="lavishObj"></param>
+        </member>
+        <member name="M:LavishSettingsAPI.Comment.Set(System.String)">
+            <summary>
+            Sets the text contained by this comment
+            </summary>
+            <param name="Text"></param>
+        </member>
+        <member name="T:LavishVMAPI.Delegates.FrameWait">
+            <summary>
+            Waits until the next frame begins
+            </summary>
+            <param name="bLock">true if the function should retain a lock after reaching the new frame</param>
+        </member>
+        <member name="T:LavishVMAPI.LavishVM">
+            <summary>
+            Methods for bootstrapping API from an Inner Space extension
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.LavishVM.GetAPI(System.String,System.String,System.UInt32)">
+            <summary>
+            Retrieves a bootstrapped API function pointer for storage as a delegate (System.Runtime.InteropServices.Marshal.GetDelegateForFunctionPointer)
+            </summary>
+            <param name="Library"></param>
+            <param name="Name"></param>
+            <param name="Version"></param>
+            <returns></returns>
+        </member>
+        <member name="F:LavishVMAPI.LavishVM._GetAPI">
+            <summary>
+            Retrieves a pointer to one bootstrapped API function
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.LavishVM.AttachAPI(System.String,System.IntPtr)">
+            <summary>
+            Called by the runtime to allow API bootstrapping
+            </summary>
+            <param name="Name"></param>
+            <param name="Address"></param>
+        </member>
+        <member name="T:LavishVMAPI.Exceptions.LockedDuringDestructionException">
+            <summary>
+            Thrown when locks are held when a FrameLockManager destructs
+            </summary>
+        </member>
+        <member name="T:LavishVMAPI.Exceptions.NotLockedException">
+            <summary>
+            Thrown when Unlock is called without having been locked by the same FrameLockManager
+            </summary>
+        </member>
+        <member name="T:LavishVMAPI.Exceptions.WaitWhileLockedException">
+            <summary>
+            Thrown when Wait is called while a lock is held by the same FrameLockManager
+            </summary>
+        </member>
+        <member name="T:LavishVMAPI.FrameLock">
+            <summary>
+            Wraps a single Frame Lock. Does not lock at construction unless explicitly specified. Automatically unlocks at destruction.
+            Can be used with using()
+            </summary>
+        </member>
+        <member name="F:LavishVMAPI.FrameLock._FLM">
+            <summary>
+            FrameLockManager to lock with
+            </summary>
+        </member>
+        <member name="F:LavishVMAPI.FrameLock._Locked">
+            <summary>
+            Current lock state
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.FrameLock.#ctor">
+            <summary>
+            Constructs a new FrameLock object. Does not lock at construction.
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.FrameLock.#ctor(LavishVMAPI.FrameLockManager)">
+            <summary>
+            Constructs a new FrameLock object. Does not lock at construction.
+            </summary>
+            <param name="framelockmananger">FrameLockManager to lock with</param>
+        </member>
+        <member name="M:LavishVMAPI.FrameLock.#ctor(System.Boolean)">
+            <summary>
+            Constructs a new FrameLock object. Optionally locks at construction.
+            </summary>
+            <param name="bLock">if true, locks immediately</param>
+        </member>
+        <member name="M:LavishVMAPI.FrameLock.#ctor(LavishVMAPI.FrameLockManager,System.Boolean)">
+            <summary>
+            Constructs a new FrameLock object. Optionally locks at construction.
+            </summary>
+            <param name="framelockmananger">FrameLockManager to lock with</param>
+            <param name="bLock">if true, locks immediately</param>
+        </member>
+        <member name="M:LavishVMAPI.FrameLock.Finalize">
+            <summary>
+            Destructs the FrameLock object, unlocking if a lock is held
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.FrameLock.Lock">
+            <summary>
+            Locks, if this FrameLock does not hold a lock
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.FrameLock.Dispose">
+            <summary>
+            Same as Unlock(), used to implement IDisposable
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.FrameLock.Unlock">
+            <summary>
+            Unlocks, if this FrameLock holds a lock
+            </summary>
+        </member>
+        <member name="T:LavishVMAPI.FrameLockManager">
+            <summary>
+            A safety wrapper for frame locking, intended for use by one thread. Throws exceptions if an operation is problematic, such as too many unlocks or attempting to wait while locks are held
+            </summary>
+        </member>
+        <member name="F:LavishVMAPI.FrameLockManager._Locks">
+            <summary>
+            Number of locks currently held
+            </summary>
+        </member>
+        <member name="F:LavishVMAPI.FrameLockManager._CleanUnlockAtShutdown">
+            <summary>
+            Prevents LockedDuringDestructionException from being thrown, instead automatically unlocking all held locks
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.FrameLockManager.#ctor">
+            <summary>
+            Constructs a new FrameLockManager
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.FrameLockManager.#ctor(System.Boolean)">
+            <summary>
+            Constructs a new FrameLockManager
+            </summary>
+            <param name="CleanUnlockAtShutdown">if true, held locks at destruction will be unlocked. if false, locks held at destruction throw LockedDuringDestructionException</param>
+        </member>
+        <member name="M:LavishVMAPI.FrameLockManager.Finalize">
+            <summary>
+            Destructs a FrameLockManager. May throw LockedDuringDestructionException if locks are held.
+            </summary>
+        </member>
+        <member name="P:LavishVMAPI.FrameLockManager.Locks">
+            <summary>
+            Current lock count, as counted by this FrameLockManager
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.FrameLockManager.Lock">
+            <summary>
+            Locks the frame, and increments the lock counter held by this FrameLockManager
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.FrameLockManager.Unlock">
+            <summary>
+            Unlocks the frame, and decrements the lock counter held by this FrameLockManager. If no locks are held, throws NotLockedException
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.FrameLockManager.Wait(System.Boolean)">
+            <summary>
+            Waits until the following frame, optionally retaining a lock. If locks are held when this call is made, throws WaitWhileLockedException
+            </summary>
+            <param name="bLock">if true, a lock will be held on the new frame</param>
+        </member>
+        <member name="M:LavishVMAPI.FrameLockManager.TryLock">
+            <summary>
+            Attempts to lock the frame, aborting if the operation would have blocked the thread
+            </summary>
+            <returns>true if successful</returns>
+        </member>
+        <member name="T:LavishVMAPI.Frame">
+            <summary>
+            Host-dependent Frame synchronization functionality
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.Frame.DirectFrameLockManager.Lock">
+            <summary>
+            Locks the frame, and increments the lock counter held by this FrameLockManager
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.Frame.DirectFrameLockManager.Unlock">
+            <summary>
+            Unlocks the frame, and decrements the lock counter held by this FrameLockManager. If no locks are held, throws NotLockedException
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.Frame.DirectFrameLockManager.Wait(System.Boolean)">
+            <summary>
+            Waits until the following frame, optionally retaining a lock. If locks are held when this call is made, throws WaitWhileLockedException
+            </summary>
+            <param name="bLock">if true, a lock will be held on the new frame</param>
+        </member>
+        <member name="M:LavishVMAPI.Frame.DirectFrameLockManager.TryLock">
+            <summary>
+            Attempts to lock the frame, aborting if the operation would have blocked the thread
+            </summary>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:LavishVMAPI.Frame.GetThreadFrameLockManager">
+            <summary>
+            The FrameLockManager object used by the Frame object for this threa
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.Frame.Lock">
+            <summary>
+            Increments the frame lock counter, locking the frame if not yet locked (uses Frame.FrameLockManager)
+            </summary>
+        </member>
+        <member name="F:LavishVMAPI.Frame._Lock">
+            <summary>
+            Locks the frame (waits until a frame begins if necessary)
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.Frame.Unlock">
+            <summary>
+            Decrements the frame lock counter, unlocking the frame if the count becomes 0. (uses Frame.FrameLockManager)
+            </summary>
+        </member>
+        <member name="F:LavishVMAPI.Frame._Unlock">
+            <summary>
+            Unlocks the frame
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.Frame.TryLock">
+            <summary>
+            Increments the frame lock counter, if the frame is locked (uses Frame.FrameLockManager)
+            </summary>
+            <returns>true if the frame lock counter was incremented</returns>
+        </member>
+        <member name="F:LavishVMAPI.Frame._TryLock">
+            <summary>
+            Attempts to lock the frame, aborting if not immediately possible
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.Frame.LockExclusive">
+            <summary>
+            Attempts to be the sole lock on the frame (not for general use)
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.Frame.UnlockExclusive">
+            <summary>
+            Unlocks the frame, after having done LockExclusive() (not for general use)
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.Frame.TryLockExclusive">
+            <summary>
+            Same as TryLock, but attempts to be the sole lock on the frame (not for general use)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:LavishVMAPI.Frame.IsLocked">
+            <summary>
+            true if the frame is locked (this may not be reliable in a multithreaded app) (does NOT use Frame.FrameLockManager)
+            </summary>
+        </member>
+        <member name="M:LavishVMAPI.Frame.Wait(System.Boolean)">
+            <summary>
+            Waits until the following frame, from whenever this call is made. Can retain a frame lock. (uses Frame.FrameLockManager)
+            </summary>
+            <param name="bLock">true if the frame lock should be retained. false if frame lock should not be retained.</param>
+        </member>
+        <member name="F:LavishVMAPI.Frame._Wait">
+            <summary>
+            Waits until the following frame, optionally retaining a frame lock
+            </summary>
+        </member>
+    </members>
+</doc>

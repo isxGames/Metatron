@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PossibleEwarNpcNames Version="1">
+  <PossibleEwarNpcName>Mercenary Wingman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow's Wingman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Angel Frigate</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Angel Frigate Vessel</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Angel Hijacker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Angel Outlaw</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Angel Rogue</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Angel Thug</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Gistii Hijacker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Gistii Outlaw</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Gistii Rogue</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Gistii Thug</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Terrorist Leader</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Corpii Follower</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Corpii Herald</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Corpii Upholder</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Corpii Worshiper</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Pithi Arrogator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Pithi Imputor</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Pithi Infiltrator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Pithi Invader</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Pithi Defender</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Yukiro Demense</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centii Loyal Minion</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centii Loyal Ravener</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centii Loyal Scavenger</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centii Loyal Servant</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Coreli Guardian Agent</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Coreli Guardian Initiate</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Coreli Guardian Scout</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Coreli Guardian Spy</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Brute Render Alvi</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Marauder Drone</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Ripper Drone</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Strain Decimator Alvi</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Strain Infester Alvi</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Strain Splinter Alvi</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Blood Follower</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Blood Herald</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Blood Upholder</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Blood Worshipper</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Guristas Arrogator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Guristas Imputor</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Guristas Infiltrator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Guristas Invader</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Loyal Minion</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Loyal Ravener</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Loyal Scavanger</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Loyal Servant</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guardian Agent</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guardian Initiate</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guardian Scout</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guardian Spy</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Strain Decimator Drone</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Strain Infester Drone</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Strain Render Drone</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Strain Splinter Drone</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Guristas Saboteur</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Guristas Despoiler</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Ace Saboteur</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Ace Despoiler</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Guristas Despoiler</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Guristas Saboteur</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Despoiler</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Saboteur</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Pithi Saboteur</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Pithi Despoiler</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Pithi Saboteur</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Outlaw Despoiler</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Outlaw Saboteur</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Sansha's Slavehunter</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Sansha's Savage</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Slavehunter</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Savage</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Loyal Slavehunter</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Loyal Savage</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Domination Nomad</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Domination Ruffian</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Psycho Nomad</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Psycho Ruffian</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Angel Ruffian</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Angel Nomad</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Angel Webifier</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Angel Viper</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Angel Ruffian</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Angel Nomad</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Cyber Nomad</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Cyber Ruffian</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Gistii Nomad</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Gistii Ruffian</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistii Domination Nomad</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistii Domination Ruffian</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistii Ruffian</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Corpii Seeker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Corpii Collector</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Corpii Seeker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Corpii Collector</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corpii Seeker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corpii Collector</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Blood Wraith</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Blood Disciple</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Kyoukan</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Webifier</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Pithi Despoiler</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Pithi Saboteur</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centii Savage</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centii Slavehunter</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Berserker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Demon</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Centii Savage</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Centii Slavehunter</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Coreli Guardian Patroller</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Coreli Guardian Watchman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Coreli Patroller</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Coreli Watchman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guardian Veteran</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Coreli Patroller</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Coreli Watchman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Spider Drone I</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Spider Drone II</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Blood Collector</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Blood Seeker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Blood Collector</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Blood Seeker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Warrior Collector</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Warrior Seeker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Blood Collector</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Blood Seeker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sellsword Collector</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sellsword Seeker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Crook Patroller</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Crook Watchman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guardian Patroller</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guardian Watchman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Serpentis Patroller</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Serpentis Watchman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Marauder Patroller</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Marauder Watchman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Serpentis Patroller</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Serpentis Watchman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Pithum Nullifier</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Pithum Murderer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Pithum Killer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Pithum Annihilator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Pithum Nullifier</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Pithum Murderer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Pithum Killer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Pithum Annihilator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Pithum Nullifier</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Pithum Murderer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Pithum Killer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Pithum Annihilator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Angel Cruiser Vessel</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Guristas Annihilator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Guristas Killer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Guristas Murderer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Guristas Nullifier</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gunslinger Killer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gunslinger Murderer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Annihilator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Killer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Murderer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Nullifier</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Deuce Killer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Deuce Murderer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Guristas Killer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Guristas Annihilator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Guristas Murderer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Guristas Nullifier</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Corpum Sage</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Corpum Revenant</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Corpum Priest</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Corpum Arch Templar</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corpum Priest</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corpum Sage</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Corpum Priest</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Corpum Sage</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Blood Priest</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Blood Sage</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Blood Arch Templar</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Blood Priest</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Blood Revenant</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Blood Sage</PossibleEwarNpcName>
+  <PossibleEwarNpcName>TEST DRAINER</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Blood Priest</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Blood Sage</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Domination Smasher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Domination Defeater</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Domination Crusher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Domination Breaker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Gistum Crusher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Gistum Smasher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistum Breaker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistum Crusher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistum Defeater</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistum Domination Crusher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistum Domination Defeater</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistum Domination Smasher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistum Smasher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Society of Conscious Thought Cruiser</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Angel Breaker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Angel Crusher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Angel Defeater</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Angel Smasher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Angel Crusher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Angel Smasher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corpum Arch Templar</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corpum Revenant</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Corpum Revenant</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centum Beast</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centum Execrator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centum Juggernaut</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centum Loyal Beast</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centum Loyal Execrator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centum Loyal Juggernaut</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centum Loyal Slaughterer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centum Slaughterer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Centum Beast</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Centum Execrator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Centum Juggernaut</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Centum Slaughterer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corelum Chief Guard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corelum Chief Patroller</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corelum Chief Safeguard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corelum Chief Watchman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corelum Guardian Chief Guard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corelum Guardian Chief Patroller</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corelum Guardian Chief SafeGuard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corelum Guardian Chief Watchman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Corelum Chief Guard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Corelum Chief Patroller</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Corelum Chief Safeguard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Corelum Chief Watchman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Underground Circus Ringmaster</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Blood Revenant</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Blood Arch Templar</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Blood Arch Templar</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Blood Revenant</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Beast</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Juggernaut</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Loyal Beast</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Loyal Execrator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Loyal Juggernaut</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Loyal Slaughterer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Slaughterer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Sansha's Execrator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Sansha's Beast</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Sansha's Juggernaut</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Sansha's Slaughterer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guardian Chief Guard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guardian Chief Patroller</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guardian Chief Safeguard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guardian Chief Watchman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Serpentis Chief Guard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Serpentis Chief Patroller</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Serpentis Chief Safeguard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Serpentis Chief Watchman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Serpentis Chief Guard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Serpentis Chief Patroller</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Serpentis Chief Safeguard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Serpentis Chief Watchman</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Guristas Exterminator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Guristas Eliminator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Pith Eliminator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dread Pith Exterminator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Pith Eliminator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Pith Exterminator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Eliminator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Exterminator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Blood Archbishop</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Blood Harbinger</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corpus Archbishop</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corpus Harbinger</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Corpus Archbishop</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Corpus Harbinger</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Blood Archbishop</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Blood Harbinger</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Domination Nephilim</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Domination Saint</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Angel Nephilim</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Angel Saint</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gist Domination Nephilim</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gist Domination Saint</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gist Nephilim</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gist Saint</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centus Beast Lord</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centus Plague Lord</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Centus Beast Lord</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Centus Plague Lord</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Core Flotilla Admiral</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Core Vice Admiral</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Core Flotilla Admiral</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Core Vice Admiral</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Anti-Stabilizer Drone</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Beast Lord</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Plague Lord</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Sansha's Beast Lord</PossibleEwarNpcName>
+  <PossibleEwarNpcName>True Sansha's Plague Lord</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Serpentis Flotilla Admiral</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Serpentis Vice Admiral</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Serpentis Flotilla Admiral</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Shadow Serpentis Vice Admiral</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gotan Kreiss</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Hakim Stormare</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Mizuro Cybon</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Tobias Kruzhor</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Ahremen Arkah</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Draclira Merlonne</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Raysere Giant</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Tairei Namazoth</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Estamel Tharchon</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Kaikka Peunato</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Thon Eney</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Vepas Minimala</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Brokara Ryver</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Chelm Soran</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Selynne Mardakar</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Vizan Ankonin</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Brynn Jerdola</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Cormack Vaaja</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Setele Schellan</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Tuvan Orth</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Mercenary Lieutenant</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Mercenary Overlord</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Minmatar Mercenary Warship</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Rogue Mercenary Thorn</PossibleEwarNpcName>
+  <PossibleEwarNpcName>UDI Mercenary</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Cybertron</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Okham's Cyber Thrall</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Militia Guardian</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sleepless Guardian</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sleepless Safeguard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sleepless Sentinel</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Warp Scrambling Drone</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Domination Grigori</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gist Domination Commander</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gist Domination War General</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistum Domination Breaker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistum Domination Depredator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistum Domination Marauder</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistum Domination Phalanx</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistum Domination Predator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistum Domination Racer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistum Marauder</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Tritan - The Underground Overseer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sarum Spider</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Angel Thief</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Minmatar Angel</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Minmatar Angel Centurion</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Minmatar Angel Scout</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Renegade Angel Goon</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Gistii Ambusher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Gistii Hunter</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Gistii Impaler</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Arch Gistii Raider</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistii_Defender_Frigate</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Gistii Defender Frigate</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corpii Phantom_COSMOS</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Corpii Diviner</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Corpii Engraver</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Corpii Raider</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Elder Corpii Reaver</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Pithi Demolisher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Pithi Despoiler</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Pithi Destructor</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Pithi Plunderer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dire Pithi Wrecker</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centii Loyal Manslayer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centii Loyal Enslaver</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centii Loyal Butcher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centii Loyal Plague</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centii Loyal Savage</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Centii Loyal Slavehunter</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Coreli Guardian Defender</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Coreli Guardian Guard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Coreli Guardian Protector</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Coreli Guardian Safeguard</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Amarr Arch Engraver</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Amarr Gamma II Support Frigate</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Amarr Harbinger</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Amarr Phantom</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Amarr Shadow Sage</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Caldari Annihilator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Caldari Ascriber</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Caldari Assassin</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Caldari Death Dealer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Caldari Eliminator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Caldari Extinguisher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Caldari Mortifier</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Caldari Nihilist</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Caldari Non-Pirate Frigate Elite 4</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Caldari Terrorist</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Gallente Captain</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Gallente Chief Protector</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Gallente Commodore</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Gallente Drug Baron</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Gallente Elite Frigate</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Gallente Enforcer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Gallente Non-Pirate Cruiser</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Gallente Non-Pirate Elite Frigate</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Minmatar Arch Ambusher</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Minmatar Arch Hunter</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Minmatar Arch Impaler</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Minmatar Arch Raider</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Minmatar Commander</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Minmatar Depredator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Minmatar Marauder</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Minmatar Non-Pirate Elite Frigate</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Minmatar Predator</PossibleEwarNpcName>
+  <PossibleEwarNpcName>COSMOS Minmatar Warlord</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Corpum Arch Sage_COSMOS</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Dark Corpum Arch Templar_COSMOS</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Strain Render Alvi</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Mordur Bloodsworn</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Renegade Blood Raider</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Terror Bloodsworn</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Uleen Bloodsworn</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Defender</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Emissary</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Harlot Procurer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Outlaw</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Robber</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Guristas Scout Officer</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Renegade Sanshas Slaver</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha Corpse Collector</PossibleEwarNpcName>
+  <PossibleEwarNpcName>Sansha's Nation Commander</PossibleEwarNpcName>
+</PossibleEwarNpcNames>
