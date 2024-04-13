@@ -5,8 +5,8 @@ DefaultDirName={reg:HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Inn
 OutputBaseFilename=MetatronSetup
 
 [Files]
-Source: "build/Metatron.exe"; DestDir: "{app}"; Check: CheckRegistryKeyExists
-Source: "build/isxGamesPatcher.exe"; DestDir: "{app}"
+Source: "build\Metatron.exe"; DestDir: "{app}"; Check: CheckRegistryKeyExists
+Source: "build\isxGamesPatcher.exe"; DestDir: "{app}"
 
 [Code]
 function CheckRegistryKeyExists: Boolean;
