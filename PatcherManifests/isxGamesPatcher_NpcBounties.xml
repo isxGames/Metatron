@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Manifest>
+  <Project>
+    <Name>NpcBounties</Name>
+    <Author>stealthy</Author>
+    <Event_FileUpdated>npcBounties_OnFileUpdated</Event_FileUpdated>
+    <Event_UpdateError>npcBounties_OnUpdateError</Event_UpdateError>
+    <Event_UpdateComplete>npcBounties_OnUpdateComplete</Event_UpdateComplete>
+  </Project>
+  <FileInfo>
+    <filename>.NET Programs/Metatron/data/NpcBounties.bin</filename>
+    <url>https://github.com/isxGames/Metatron/releases/download/latest/NpcBounties.bin</url>
+    <version>001</version>
+  </FileInfo>
+</Manifest>

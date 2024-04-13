@@ -1,0 +1,8 @@
+﻿0.7.8.3:
+Fix for hauler to properly unload cargo to station/etc when needed.
+0.7.8.2:
+Fix to salvage BM creation to create on room change and EoM
+Test fix to hauler to handle a possible loop where the system would not properly trigger on station dock.
+0.7.8.1:
+Mining with Ore Hold open, rather than the CargoHold
+Delays possible between dropoffs in CycleFleet.  Available in mining tab.

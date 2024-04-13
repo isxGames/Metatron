@@ -1,0 +1,835 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lavish.LavishNav</name>
+    </assembly>
+    <members>
+        <member name="T:LavishNavAPI.Regions.Universe">
+            <summary>
+            A universe contains everything. 
+            See http://www.lavishsoft.com/wiki/index.php/LavishNav:Universe_%28Region_Type%29
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Universe.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScriptObject as a Universe
+            </summary>
+            <param name="Obj"></param>
+        </member>
+        <member name="T:LavishNavAPI.Regions.Aggregate">
+            <summary>
+            An aggregate is a universe that contains ONLY its children. Containment algorithms are slower when using aggregates, use sparingly.
+            See http://www.lavishsoft.com/wiki/index.php/LavishNav:Aggregate_%28Region_Type%29
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Aggregate.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScriptObject as an Aggregate
+            </summary>
+            <param name="Obj"></param>
+        </member>
+        <member name="T:LavishNavAPI.Regions.Point">
+            <summary>
+            You know what a point is, jerk. 
+            See http://www.lavishsoft.com/wiki/index.php/LavishNav:Point_%28Region_Type%29
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Point.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScriptObject as a Point
+            </summary>
+            <param name="Obj"></param>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Point.Pt">
+            <summary>
+            The point that defines this region
+            </summary>
+        </member>
+        <member name="T:LavishNavAPI.Regions.Radius">
+            <summary>
+            A radius is a 2-dimensional circle that contains all levels of Z. 
+            See http://www.lavishsoft.com/wiki/index.php/LavishNav:Radius_%28Region_Type%29
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Radius.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScriptObject as a Radius
+            </summary>
+            <param name="Obj"></param>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Radius.Size">
+            <summary>
+            The radius attached to the point defining this region
+            </summary>
+        </member>
+        <member name="T:LavishNavAPI.Regions.Rect">
+            <summary>
+            A rect is a 2-dimensional rectangle that contains all levels of Z.
+            See http://www.lavishsoft.com/wiki/index.php/LavishNav:Rect_%28Region_Type%29
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Rect.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScriptObject as a Rect
+            </summary>
+            <param name="Obj"></param>
+        </member>
+        <member name="T:LavishNavAPI.Regions.Triangle">
+            <summary>
+            A triangle is a 2-dimensional triangle that contains all levels of Z. It is made of 3 points, each having a Z -- the Z is only used to identify the Z level of the center point.
+            See http://www.lavishsoft.com/wiki/index.php/LavishNav:Triangle_%28Region_Type%29
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Triangle.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScriptObject as a Triangle
+            </summary>
+            <param name="Obj"></param>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Triangle.GetPoint(System.UInt32)">
+            <summary>
+            Retrieves one of the 3 points making this triangle
+            </summary>
+            <param name="Index">The 1-based index identifying the point number to retrieve</param>
+            <returns>A LavishScript point3f object representing the given point</returns>
+        </member>
+        <member name="T:LavishNavAPI.Regions.Sphere">
+            <summary>
+            A sphere is a 3-dimensional circle. It works exactly like a radius object, except in 3 dimensions.
+            See http://www.lavishsoft.com/wiki/index.php/LavishNav:Sphere_%28Region_Type%29
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Sphere.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScriptObject as a Sphere
+            </summary>
+            <param name="Obj"></param>
+        </member>
+        <member name="T:LavishNavAPI.Regions.Box">
+            <summary>
+            A box is a 3-dimensional rectangle. It works exactly like a rect object, except in 3 dimensions.
+            See http://www.lavishsoft.com/wiki/index.php/LavishNav:Box_%28Region_Type%29
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Box.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScriptObject as a Box
+            </summary>
+            <param name="Obj"></param>
+        </member>
+        <member name="T:LavishNavAPI.Regions.Prism">
+            <summary>
+            A LavishNav "prism" is a right triangular prism.
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Prism.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScriptObject as a Prism
+            </summary>
+            <param name="Obj"></param>
+        </member>
+        <member name="T:LavishNavAPI.Regions.RegionFlags">
+            <summary>
+            Flags which may be attributed to regions
+            </summary>
+        </member>
+        <member name="F:LavishNavAPI.Regions.RegionFlags.Unique">
+            <summary>
+            A uniquely-named region. Remember not to make all regions unique. If all regions are unique, then no region is unique.
+            </summary>
+        </member>
+        <member name="F:LavishNavAPI.Regions.RegionFlags.CoordinateSystem">
+            <summary>
+            A region that defines a coordinate system (generally a Universe). Used to logically separate overlapping coordinate systems.
+            </summary>
+        </member>
+        <member name="F:LavishNavAPI.Regions.RegionFlags.AllPointsValid">
+            <summary>
+            This flag is not used directly by LavishNav. It is intended to mean that a system using LavishNav can treat this region as
+            a free movement area, with no obstacles.
+            </summary>
+        </member>
+        <member name="T:LavishNavAPI.Regions.Region">
+            <summary>
+            See http://www.lavishsoft.com/wiki/index.php/LavishNav:Regions
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Copies a LavishScriptObject as a Region
+            </summary>
+            <param name="Obj"></param>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.op_Implicit(LavishNavAPI.Regions.Region)~System.UInt32">
+            <summary>
+            Retrieves the region ID
+            </summary>
+            <param name="Region"></param>
+            <returns></returns>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.Parent">
+            <summary>
+            Parent region in the containment tree
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.Children">
+            <summary>
+            First child in the containment tree
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.Next">
+            <summary>
+            Next sibling in the containment tree
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.Previous">
+            <summary>
+            Previous sibling in the containment tree
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.ChildCount">
+            <summary>
+            Number of children contained by this region
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.ID">
+            <summary>
+            Unique identifier for this region, valid until the region is unloaded
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.Name">
+            <summary>
+            Name of this region
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.FQN">
+            <summary>
+            Fully-Qualified Name for this region. A Fully-Qualified Name (FQN) is made up of a region's name and each of its parents' names (from this region to its outermost parent), separated by the . character. For example, if an region named "Bank" resides in a top-level region named "SomeCity", the region's FQN is "Bank.SomeCity".
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.Type">
+            <summary>
+            Type of region (e.g. Universe)
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.CenterPoint">
+            <summary>
+            The exact center of this region
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.Unique">
+            <summary>
+            true if the region is marked Unique
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.AllPointsValid">
+            <summary>
+            true if the region is marked All Points Valid
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.IsCoordinateSystem">
+            <summary>
+            true if the region defines a coordinate system
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.FindRegion(System.String)">
+            <summary>
+            Retrieves a region by name, using a relative name search
+            See http://www.lavishsoft.com/wiki/index.php/LavishNav:Region_Name_Search
+            </summary>
+            <param name="Name">Relative region name</param>
+            <returns>The region searched for, or null</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.AddToGroup(System.String)">
+            <summary>
+            Adds the region to a named region group, creating it first if necessary.
+            </summary>
+            <param name="GroupName">Name of group to add this region to</param>
+            <returns>true if the operation succeeded</returns>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.CoordinateSystem">
+            <summary>
+            The region defining the coordinate system this region is a part of
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.Connect(System.UInt32)">
+            <summary>
+            Connects this region to a given region by ID, returning a reference to the new connection
+            </summary>
+            <param name="ID">Other region ID</param>
+            <returns>The new connection</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.Connect(System.String)">
+            <summary>
+            Connects this region to a given region by FQN, returning a reference to the new connection
+            </summary>
+            <param name="FQN">Fully-Qualified Name to connect to</param>
+            <returns>The new connection</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.IsDescendantOf(System.UInt32)">
+            <summary>
+            Determines if this region is a descendant of another region, by ID
+            </summary>
+            <param name="ID">Potential ancestor region ID</param>
+            <returns>true if this region is a descendant of the given region</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.IsDescendantOf(System.String)">
+            <summary>
+            Determines if this region is a descendant of another region, by FQN
+            </summary>
+            <param name="FQN">Potential ancestor region FQN</param>
+            <returns>true if this region is a descendant of the given region</returns>
+        </member>
+        <member name="P:LavishNavAPI.Regions.Region.ConnectionCount">
+            <summary>
+            The number of connections from this region to other regions
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.NearestPoint(System.Double,System.Double,System.Double)">
+            <summary>
+            Retrieves the nearest point inside this region to a given point. The behavior of this function is specific to the type of region, and may not be implemented for a given type of region (it may be the center point).
+            </summary>
+            <param name="X">X</param>
+            <param name="Y">Y</param>
+            <param name="Z">Z</param>
+            <returns>The nearest point inside this region to the given point</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.Contains(System.Double,System.Double,System.Double)">
+            <summary>
+            Determines if this region contains a given point
+            </summary>
+            <param name="X">X</param>
+            <param name="Y">Y</param>
+            <param name="Z">Z</param>
+            <returns>true if this region contains the given point</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.NearestChild(System.Double,System.Double,System.Double)">
+            <summary>
+            Retrieves the nearest child of this region, to a given point.
+            </summary>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="Z"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.BestContainer(System.Double,System.Double,System.Double)">
+            <summary>
+            Retrieves the best container of a given point, with search beginning in this region.
+            See http://www.lavishsoft.com/wiki/index.php/LavishNav:Best_Container
+            </summary>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="Z"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.BestContainer(System.Double,System.Double)">
+            <summary>
+            Retrieves the best container of a given point, with search beginning in this region.
+            This is the 2D version that ignores Z axis. You should normally use the 3D version.
+            See http://www.lavishsoft.com/wiki/index.php/LavishNav:Best_Container
+            </summary>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.FullContainer(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Retrieves a full container of a given point and a given size
+            </summary>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="Z"></param>
+            <param name="Radius"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.NearestChildren(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Retrieves a list of the nearest children to a given point, with a maximum count
+            </summary>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="Z"></param>
+            <param name="MaxCount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.DescendantsWithin(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Retrieves a list of all descendants within a given distance to a loocation
+            </summary>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="Z"></param>
+            <param name="MaxDist"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.ChildrenWithin(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Retrieves a list of all children within a given distance to a location
+            </summary>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="Z"></param>
+            <param name="MaxDist"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.GetCustom``1(System.String)">
+            <summary>
+            Retrieves custom data stored with the region, by name
+            </summary>
+            <typeparam name="T">Type to convert the text literal to (e.g. string)</typeparam>
+            <param name="Name">Name of custom data to retrieve</param>
+            <returns>Custom data value, or default(T)</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.SetCustom(System.String,System.String)">
+            <summary>
+            Sets custom data to be stored with the region, by name
+            </summary>
+            <param name="Name">Name of custom data to set</param>
+            <param name="Value">Value to store</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.UnsetCustom(System.String)">
+            <summary>
+            Destroys custom data stored with the region, by name
+            </summary>
+            <param name="Name">Name of custom data to destroy</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.GetConnection(System.UInt32)">
+            <summary>
+            Retrieves the connection to another region, by that region's ID
+            </summary>
+            <param name="ID">ID of other region</param>
+            <returns>The requested connection, or null</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.GetConnection(System.String)">
+            <summary>
+            Retrieves the connection to another region, by that region's FQN
+            </summary>
+            <param name="FQN">FQN of other region</param>
+            <returns>The requested connection, or null</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.NewConnectionIterator">
+            <summary>
+            Retrieves an iterator object ready to iterate connections from this region
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.GetConnections">
+            <summary>
+            Retrieves a list containing connections from this region
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.ImportXML(System.String)">
+            <summary>
+            Imports regions stored in a LavishNav-formatted XML file into this region
+            </summary>
+            <param name="Filename">XML filename</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.ImportLSO(System.String)">
+            <summary>
+            Imports regions stored in a LavishNav-formatted LSO file (like a binary XML) into this region
+            </summary>
+            <param name="Filename">LSO filename</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.ExportXML(System.String)">
+            <summary>
+            Exports this region and its children to a LavishNav-formatted XML file (destroys existing file)
+            </summary>
+            <param name="Filename">XML filename</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.ExportLSO(System.String)">
+            <summary>
+            Exports this region and its children to a LavishNav-formatted LSO (like a binary XML) file (destroys existing file)
+            </summary>
+            <param name="Filename">LSO filename</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.ExportXML(System.String,System.Boolean)">
+            <summary>
+            Exports this region and/or its children to a LavishNav-formatted XML file (destroys existing file)
+            </summary>
+            <param name="Filename">XML filename</param>
+            <param name="bChildrenOnly">true if only the children should be exported</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.ExportLSO(System.String,System.Boolean)">
+            <summary>
+            Exports this region and/or its children to a LavishNav-formatted LSO (like a binary XML) file (destroys existing file)
+            </summary>
+            <param name="Filename">LSO filename</param>
+            <param name="bChildrenOnly">true if only the children should be exported</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.Clear">
+            <summary>
+            Destroys all children of this region
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.Remove">
+            <summary>
+            Destroys this region and anything in it
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.AddPoint(System.String,System.Double,System.Double,System.Double,LavishNavAPI.Regions.RegionFlags)">
+            <summary>
+            Creates a new Point inside this region
+            </summary>
+            <param name="Name">Name to give the new Point</param>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="Z"></param>
+            <param name="Flags"></param>
+            <returns>The new point</returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.AddPoint(System.Double,System.Double,System.Double,LavishNavAPI.Regions.RegionFlags)">
+            <summary>
+            Creates a new auto-named Point inside this region
+            </summary>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="Z"></param>
+            <param name="Flags"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Regions.Region.AddUniverse(System.String,LavishNavAPI.Regions.RegionFlags)">
+            <summary>
+            Adds a universe at 0,0,0 inside this region
+            </summary>
+            <param name="Name">Name for the new universe</param>
+            <param name="Flags"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LavishNavAPI.Connection">
+            <summary>
+            A uni-directional connection, from one region to another. 
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Connection.ID">
+            <summary>
+            ID number of this connection
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Connection.ActualDistance">
+            <summary>
+            Distance from the center point of the source to the center point of the destination
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Connection.Distance">
+            <summary>
+            "Effective" distance from the center point of the source to the center point of the destination. May be overridden permanently.
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Connection.UnsetDistance">
+            <summary>
+            Resets the "effective" distance to match the actual distance
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Connection.GetCustom``1(System.String)">
+            <summary>
+            Retrieves custom data stored with the connection, by name
+            </summary>
+            <typeparam name="T">Type to convert the text literal to (e.g. string)</typeparam>
+            <param name="Name">Name of custom data to retrieve</param>
+            <returns>Custom data value, or default(T)</returns>
+        </member>
+        <member name="M:LavishNavAPI.Connection.SetCustom(System.String,System.String)">
+            <summary>
+            Sets custom data to be stored with the connection, by name
+            </summary>
+            <param name="Name">Name of custom data to set</param>
+            <param name="Value">Value to store</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:LavishNavAPI.Connection.UnsetCustom(System.String)">
+            <summary>
+            Destroys custom data stored with the connection, by name
+            </summary>
+            <param name="Name">Name of custom data to destroy</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="P:LavishNavAPI.Connection.Source">
+            <summary>
+            The source region
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Connection.Destination">
+            <summary>
+            The destination region. May be null if the destination region is not loaded.
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Connection.DestinationFQN">
+            <summary>
+            FQN of the destination region, regardless of whether the destination region is loaded.
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Connection.AutoLoadFilename">
+            <summary>
+            Can be set to automatically a given XML file if the connection is used. This should
+            be used very carefully, as auto-loading will happen during SelectPath
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Connection.Prepare">
+            <summary>
+            Prepares the connection for use. This is generally done internally by connection-related
+            algorithms.
+            </summary>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:LavishNavAPI.Connection.Remove">
+            <summary>
+            Destroys the connection permanently
+            </summary>
+        </member>
+        <member name="T:LavishNavAPI.RegionGroup">
+            <summary>
+            A set of regions
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.RegionGroup.#ctor">
+            <summary>
+            Creates a new, un-named, temporary (non-stored) region group
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.RegionGroup.#ctor(System.String)">
+            <summary>
+            Creates a new, named, permanent (stored) region group, or simply references an existing one
+            </summary>
+            <param name="Name">Name for the new region group</param>
+        </member>
+        <member name="T:LavishNavAPI.Path">
+            <summary>
+            A linear path from region A to region B
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Path.#ctor">
+            <summary>
+            Constructs a new Path object
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Path.Hops">
+            <summary>
+            Number of hops, including the starting location. If there is one hop, the beginning and end are the same region.
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Path.Region(System.UInt32)">
+            <summary>
+            Retrieves the destination region for a given hop. Hop 1 is the starting location.
+            </summary>
+            <param name="Hop">1-based hop number</param>
+            <returns>The given region, or null</returns>
+        </member>
+        <member name="M:LavishNavAPI.Path.Connection(System.UInt32)">
+            <summary>
+            Retrieves the connection to a given hop (each hop is a destination). Hop 1 is the starting location, and therefore has no connection.
+            </summary>
+            <param name="Hop">1-based hop number (hop 1 is null)</param>
+            <returns>The given connection, or null</returns>
+        </member>
+        <member name="M:LavishNavAPI.Path.Reverse">
+            <summary>
+            Reverses the path. Using this function makes the assumption that the path is reversible using the same connections. As connections are uni-directional, there is absolutely no guarantee that this will work. Instead, calculate a new path that will use proper connections.
+            </summary>
+            <returns>true if successful (does not imply the reversed path is actually traversable)</returns>
+        </member>
+        <member name="M:LavishNavAPI.Path.Clear">
+            <summary>
+            Clears the path such that it contains no hops
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Path.AddHop(System.UInt32,System.UInt32)">
+            <summary>
+            Adds a hop to the end of path
+            </summary>
+            <param name="RegionID">Region ID of the hop to add</param>
+            <param name="ConnectionID">Connection ID of the hop to add</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="T:LavishNavAPI.Pathfinders.Delegates.LNavCostCallback">
+            <summary>
+            Used for dynamic cost weighting
+            </summary>
+            <param name="ConnectionID">ID number of the connection being processed</param>
+            <param name="Cost">Cost to use for this connection</param>
+            <param name="pData">A user-defined 32-bit value</param>
+            <returns>false if the connection should not be used, otherwise true</returns>
+        </member>
+        <member name="T:LavishNavAPI.Pathfinders.Pathfinder">
+            <summary>
+            A pathfinder object (use AStar or Dijkstra)
+            See http://www.lavishsoft.com/wiki/index.php/LavishNav:Pathfinders
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.Pathfinders.Pathfinder.PathfinderType">
+            <summary>
+            Type of pathfinder ("A*" or "Dijkstra's")
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Pathfinders.Pathfinder.Distance(System.UInt32,System.UInt32)">
+            <summary>
+            Determines the routed distance (i.e. probably not linear) between two regions
+            </summary>
+            <param name="RegionA">Source region</param>
+            <param name="RegionB">Destination region</param>
+            <returns>The routed distance, if such a path exists</returns>
+        </member>
+        <member name="M:LavishNavAPI.Pathfinders.Pathfinder.Reset">
+            <summary>
+            Resets the pathfinder, such that it retains no pathfinding data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Pathfinders.Pathfinder.SelectPath(System.UInt32,System.UInt32,LavishNavAPI.Path@)">
+            <summary>
+            Selects the shortest path from region A to region B
+            </summary>
+            <param name="RegionA"></param>
+            <param name="RegionB"></param>
+            <param name="Path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Pathfinders.Pathfinder.SelectPath(System.UInt32,System.UInt32,LavishNavAPI.Path@,System.Double)">
+            <summary>
+            Selects the shortest path from region A to region B, within a maximum total cost
+            </summary>
+            <param name="RegionA"></param>
+            <param name="RegionB"></param>
+            <param name="Path"></param>
+            <param name="MaxCost">Total cost (usually in units of distance)</param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Pathfinders.Pathfinder.SelectPath(System.UInt32,System.UInt32,LavishNavAPI.Path@,LavishNavAPI.Pathfinders.Delegates.LNavCostCallback,System.Int32)">
+            <summary>
+            Selects the shortest path from region A to region B, allowing dynamic per-connection cost
+            </summary>
+            <param name="RegionA"></param>
+            <param name="RegionB"></param>
+            <param name="Path"></param>
+            <param name="Callback"></param>
+            <param name="pData">An Int32 value to pass to the callback</param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Pathfinders.Pathfinder.SelectPath(System.String,System.String,LavishNavAPI.Path@)">
+            <summary>
+            Selects the shortest path from region A to region B
+            </summary>
+            <param name="RegionA_FQN"></param>
+            <param name="RegionB_FQN"></param>
+            <param name="Path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Pathfinders.Pathfinder.NearestConnectedRegion(System.UInt32,System.Double,System.Double,System.Double)">
+            <summary>
+            Retrieves the nearest region to X,Y,Z that can be pathed to (via connections) from region A
+            </summary>
+            <param name="RegionA"></param>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="Z"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LavishNavAPI.Pathfinders.Pathfinder.NearestConnectedRegion(System.UInt32,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Retrieves the nearest region to X,Y,Z that can be pathed to (via connections) from region A
+            </summary>
+            <param name="RegionA"></param>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="Z"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LavishNavAPI.Pathfinders.AStar">
+            <summary>
+            A* shortest path algorithm
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Pathfinders.AStar.#ctor">
+            <summary>
+            Constructs a new AStar pathfinder object
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Pathfinders.AStar.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Constructs a reference to an AStar object from a given LavishScriptObject
+            </summary>
+            <param name="Obj"></param>
+        </member>
+        <member name="T:LavishNavAPI.Pathfinders.Dijkstra">
+            <summary>
+            Dijkstra's shortest path algorithm
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.Pathfinders.Dijkstra.#ctor">
+            <summary>
+            Constructs a new Dijkstra pathfinder object
+            </summary>
+        </member>
+        <member name="T:LavishNavAPI.LavishNav">
+            <summary>
+            The LavishNav base object
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.LavishNav.#ctor">
+            <summary>
+            Constructs a reference to the permanent LavishNav object
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.LavishNav.#ctor(LavishScriptAPI.LavishScriptObject)">
+            <summary>
+            Creates a LavishNav object reference from a given LavishScriptObject
+            </summary>
+            <param name="Obj"></param>
+        </member>
+        <member name="P:LavishNavAPI.LavishNav.Version">
+            <summary>
+            LavishNav version number
+            </summary>
+        </member>
+        <member name="P:LavishNavAPI.LavishNav.Tree">
+            <summary>
+            The root universe, containing all LavishNav regions
+            </summary>
+        </member>
+        <member name="M:LavishNavAPI.LavishNav.GetRegion(System.UInt32)">
+            <summary>
+            Retrieves an existing region by its temporary ID number.
+            </summary>
+            <param name="ID">ID number of the region to retrieve</param>
+            <returns>A reference to the existing region</returns>
+        </member>
+        <member name="M:LavishNavAPI.LavishNav.GetRegion(System.String)">
+            <summary>
+            Retrieves an existing region by its Fully Qualified Name
+            </summary>
+            <param name="FQN">Fully Qualified Name of the region to retrieve</param>
+            <returns>A reference to the existing region</returns>
+        </member>
+        <member name="M:LavishNavAPI.LavishNav.GetConnection(System.UInt32)">
+            <summary>
+            Retrieves an existing connection by its temporary ID number.
+            </summary>
+            <param name="ID">ID number of the connection to retrieve</param>
+            <returns>A reference to the existing connection</returns>
+        </member>
+        <member name="M:LavishNavAPI.LavishNav.IsValidName(System.String)">
+            <summary>
+            Determines if a name is valid for LavishNav regions.
+            </summary>
+            <param name="Name">Name to query</param>
+            <returns>true if valid, false otherwise</returns>
+        </member>
+        <member name="M:LavishNavAPI.LavishNav.AddRegionGroup(System.String)">
+            <summary>
+            Adds (or retrieves) a named region group. Same as new RegionGroup(name)
+            </summary>
+            <param name="Name">Name for the region group</param>
+            <returns>The new region group</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2B36BE89-E070-4F3D-BB2B-A3E1ABEAB2BB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Metatron.Core</RootNamespace>
+    <AssemblyName>Metatron.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>sbkey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ISXEVE Beta|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ISXEVE Beta\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;ISXEVE_BETA</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ISXEVEWrapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=103485bb2d98b2ec, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\ISXEVEWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Lavish.InnerSpace, Version=1.1.0.0, Culture=neutral, PublicKeyToken=9029a3ab4cbe108d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\Lavish.InnerSpace.dll</HintPath>
+    </Reference>
+    <Reference Include="Lavish.LavishVMRuntime, Version=1.1.0.0, Culture=neutral, PublicKeyToken=9029a3ab4cbe108d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\Lavish.LavishVMRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.7.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Onova, Version=2.6.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Onova.2.6.8\lib\net462\Onova.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net, Version=2.0.0.666, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\protobuf-net.2.0.0.666\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.7.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=7.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.7.0.2\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Action.cs" />
+    <Compile Include="ActionSet.cs" />
+    <Compile Include="AnomalyProvider.cs" />
+    <Compile Include="ApproachTypes.cs" />
+    <Compile Include="CachedAgent.cs" />
+    <Compile Include="CachedAlliance.cs" />
+    <Compile Include="CachedBelt.cs" />
+    <Compile Include="CachedBookMark.cs" />
+    <Compile Include="CachedBookMarkedBelt.cs" />
+    <Compile Include="CachedCorporation.cs" />
+    <Compile Include="CachedDogma.cs" />
+    <Compile Include="CachedDrone.cs" />
+    <Compile Include="CachedEntity.cs" />
+    <Compile Include="CachedMission.cs" />
+    <Compile Include="CachedPilot.cs" />
+    <Compile Include="CachedStanding.cs" />
+    <Compile Include="Collections\Generic\Pair.cs" />
+    <Compile Include="Config\AlertConfiguration.cs" />
+    <Compile Include="Config\ConfigProperty.cs" />
+    <Compile Include="Config\Configuration.cs" />
+    <Compile Include="Config\ConfigurationBase.cs" />
+    <Compile Include="Config\HaulingConfiguration.cs" />
+    <Compile Include="Destination.cs" />
+    <Compile Include="DestinationTypes.cs" />
+    <Compile Include="ESIAlliance.cs" />
+    <Compile Include="ESICorporation.cs" />
+    <Compile Include="ESIDogmaAttribute.cs" />
+    <Compile Include="ESIDogmaEffect.cs" />
+    <Compile Include="ESIEntity.cs" />
+    <Compile Include="Extensions\CryptographicExtensions.cs" />
+    <Compile Include="Interfaces\IDefensiveConfiguration.cs" />
+    <Compile Include="Config\MaxRuntimeConfiguration.cs" />
+    <Compile Include="Config\SalvageConfiguration.cs" />
+    <Compile Include="Config\ShipHubConfiguration.cs" />
+    <Compile Include="CustomEventArgs\WalletStatisticsUpdatedEventArgs.cs" />
+    <Compile Include="Config\DefensiveConfiguration.cs" />
+    <Compile Include="DamageProfile.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="CustomEventArgs\SessionChangedEventArgs.cs" />
+    <Compile Include="Config\FleetConfiguration.cs" />
+    <Compile Include="Config\CargoConfiguration.cs" />
+    <Compile Include="EveWindowProvider.cs" />
+    <Compile Include="Extensions\ArrayExtensions.cs" />
+    <Compile Include="Extensions\EnumExtensions.cs" />
+    <Compile Include="Extensions\ObjectExtensions.cs" />
+    <Compile Include="FileReadStateObject.cs" />
+    <Compile Include="FileWriteStateObject.cs" />
+    <Compile Include="Interfaces\IAnomalyClaimTracker.cs" />
+    <Compile Include="Interfaces\IAnomalyProvider.cs" />
+    <Compile Include="Interfaces\IDogmaCache.cs" />
+    <Compile Include="Interfaces\IEntityCache.cs" />
+    <Compile Include="Interfaces\IInventoryProvider.cs" />
+    <Compile Include="Interfaces\IAgentCache.cs" />
+    <Compile Include="Interfaces\IAlerts.cs" />
+    <Compile Include="Interfaces\IAllianceCache.cs" />
+    <Compile Include="Interfaces\IAsteroidBelts.cs" />
+    <Compile Include="Interfaces\IAttackers.cs" />
+    <Compile Include="Interfaces\IBookmarkCache.cs" />
+    <Compile Include="Interfaces\IBookmarks.cs" />
+    <Compile Include="Interfaces\ICargoContainer.cs" />
+    <Compile Include="Interfaces\IConfiguration.cs" />
+    <Compile Include="Interfaces\IConfigurationManager.cs" />
+    <Compile Include="Interfaces\ICorporateHangarArray.cs" />
+    <Compile Include="Interfaces\ICorporationCache.cs" />
+    <Compile Include="Interfaces\ICriticallyBlocking.cs" />
+    <Compile Include="Extensions\IEnumerableExtensions.cs" />
+    <Compile Include="Interfaces\IDrones.cs" />
+    <Compile Include="Interfaces\IEntityProvider.cs" />
+    <Compile Include="Interfaces\IEntityWrapper.cs" />
+    <Compile Include="Interfaces\IEveWindowProvider.cs" />
+    <Compile Include="Interfaces\IFileManager.cs" />
+    <Compile Include="Interfaces\IFleet.cs" />
+    <Compile Include="Interfaces\IIsxeveProvider.cs" />
+    <Compile Include="Interfaces\IJettisonContainer.cs" />
+    <Compile Include="Interfaces\ILogEventArgs.cs" />
+    <Compile Include="Interfaces\ILogging.cs" />
+    <Compile Include="Interfaces\IMeCache.cs" />
+    <Compile Include="Interfaces\IMeToEntityCache.cs" />
+    <Compile Include="Interfaces\IMissionCache.cs" />
+    <Compile Include="Interfaces\IMissionDatabase.cs" />
+    <Compile Include="Interfaces\IModule.cs" />
+    <Compile Include="Interfaces\IModuleManager.cs" />
+    <Compile Include="Interfaces\IMovement.cs" />
+    <Compile Include="Interfaces\INpcBountyCache.cs" />
+    <Compile Include="Interfaces\IPilotCache.cs" />
+    <Compile Include="Interfaces\IPossibleEwarNpcs.cs" />
+    <Compile Include="Interfaces\IRandomWaitObject.cs" />
+    <Compile Include="Interfaces\ISafespots.cs" />
+    <Compile Include="Interfaces\IShip.cs" />
+    <Compile Include="Interfaces\IShipCache.cs" />
+    <Compile Include="Interfaces\ISocial.cs" />
+    <Compile Include="Interfaces\IStation.cs" />
+    <Compile Include="Interfaces\IStatistics.cs" />
+    <Compile Include="Interfaces\ITargeting.cs" />
+    <Compile Include="Interfaces\ITargetQueue.cs" />
+    <Compile Include="InventoryProvider.cs" />
+    <Compile Include="IsxeveProvider.cs" />
+    <Compile Include="Loader.cs" />
+    <Compile Include="Config\MainConfiguration.cs" />
+    <Compile Include="Config\MiningConfiguration.cs" />
+    <Compile Include="Config\MissionConfiguration.cs" />
+    <Compile Include="Config\MovementConfiguration.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="LogEventArgs.cs" />
+    <Compile Include="LogFile.cs" />
+    <Compile Include="Mission.cs" />
+    <Compile Include="MovementTypes.cs" />
+    <Compile Include="PairEventArgs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Config\RattingConfiguration.cs" />
+    <Compile Include="Config\SocialConfiguration.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="QueueTarget.cs" />
+    <Compile Include="Safespots.cs" />
+    <Compile Include="TimeSpanEventArgs.cs" />
+    <Compile Include="MathUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="sbkey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EventCommunication\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

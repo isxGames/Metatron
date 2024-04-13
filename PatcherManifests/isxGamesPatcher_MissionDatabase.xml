@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Manifest>
+  <Project>
+    <Name>MissionDatabase</Name>
+    <Author>stealthy</Author>
+    <Event_FileUpdated>missiondatabase_OnFileUpdated</Event_FileUpdated>
+    <Event_UpdateError>missiondatabase_OnUpdateError</Event_UpdateError>
+    <Event_UpdateComplete>missiondatabase_OnUpdateComplete</Event_UpdateComplete>
+  </Project>
+  <FileInfo>
+    <filename>.NET Programs/Metatron/data/MissionDatabase.xml</filename>
+    <url>https://github.com/isxGames/Metatron/releases/download/latest/MissionDatabase.xml</url>
+    <version>004</version>
+  </FileInfo>
+</Manifest>

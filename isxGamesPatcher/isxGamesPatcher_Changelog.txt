@@ -1,0 +1,85 @@
+ isxGamesPatcher Change Log
+ http://vg.isxgames.com/wiki/index.php?title=IsxGamesPatcher
+ 
+Notes:
+ISXVG Manifest: dotnet ISXVG isxGamesPatcher isxvg 0 http://www.isxgames.com/isxvg/ISXVGManifest.xml
+Test Manifest: dotnet testapp isxGamesPatcher testapp 0 http://isxeq2.twonk.net/1/t.xml
+XeonX: dotnet VGCraftBot isxGamesPatcher VGCraftBot 0 http://www.reality.net/svn/vanguard/release/VGCraftBot-manifest.xml
+
+ 20121017 - CyberTech
+    - Add isxGamesPatcher_onParseManifestFailed event, for when the manifest is unavailable or unparsable
+
+ 20070309.02 - CyberTech
+	- Change XML file aquisition method, and add header lines to bypass caching of xml file.
+	
+ 20070309.02 - CyberTech
+	- Add header lines to disable caching and to bypass existing caching of downloaded files -- xml file still needs done!
+	- Add header to disable keepalive
+	- Add header to enable custom isxGamesPatcher useragent on http requests
+	
+ 20070309.01 - CyberTech
+	- Propagate HTTP and TCP errors to the error event msg.
+	- Add a few delays in dll unload/reload to try to fix an issue with dll missing event (assumption)
+	- Tidy output a bit
+	- Add more exception handling for the http request (host missing, down, etc)
+	
+ 20070308.05 - CyberTech
+ 	- Added ability to create subdirectories as specified by the <filename> component in the patcher
+	- Misc output changes
+	- Added <PerformBackup>(0 or 1)</PerformBackup>
+		Allows the script author to disable backups of certain files, for which it makes no sense to do backups,
+		for example, changelogs, dll's, etc.
+	- Added <Project> section to xml file.
+		<Project>
+			<Name>My Project</Name>
+			<Author>Joe Somebody</Author>
+			<Event_FileUpdated>myscript_OnFileUpdated</Event_FileUpdated>
+			<Event_UpdateError>myscript_OnUpdateError</Event_UpdateError>
+			<Event_UpdateComplete>myscript_OnUpdateComplete</Event_UpdateComplete>
+		</Project>
+	- Added Manifest-Configurable Event Specification to <Project> block
+		<Event_FileUpdated>myproject_OnFileUpdated</Event_FileUpdated>
+		<Event_UpdateError>myproject_OnUpdateError</Event_UpdateError>
+		<Event_UpdateComplete>myproject_OnUpdateComplete</Event_UpdateComplete>
+		
+		<Event_UpdateComplete>
+			This event will fire when the patcher is completely done.  It is specified only at the <Project> level, 
+			not at the <FileInfo> level.
+			Default Event: "isxGamesPatcher_onUpdateComplete"
+		Event_FileUpdated
+			This will pass the name of the file that was updated as a parameter.  Note 
+			that you could have a different event for each file, if you wanted.
+			Default: "isxGamesPatcher_onFileUpdated"
+		Event_UpdateError
+			This will pass the error, in the case of a problem parsing the manifest file,
+			downloading files, etc.  Probably not needed, for most scripts.
+			Default: "isxGamesPatcher_onUpdateError"
+			
+		Note: 
+			When listening for these events in your script, you must register the event, since
+			the patcher won't be running yet to have registered it.
+	
+ 20070308.03 - Amadeus
+	- Changed Convert() calls to be more globalization friendly.	 
+
+ 20070308.02 - CyberTech
+	- Fixed download case where the original file didn't exist
+	- Added clean error reporting for URL download problems
+	- Enabled the patcher to patch itself AND reload it's process to continue the patch, without intervention.
+	- Removed backwards-compatibility code for previous XML Manifest file versions
+	- Trimmed output a bit, it will be quieter now.
+	- Changed method of handling common exceptions so windbg won't complain
+	
+ 20070307.01 - CyberTech
+ 	- Added ability to specify multiple files to update in a single XML Manifest.
+ 	- Added ability to block updates of specific files by adding a 0-byte file, in
+ 		the same directory as the original, called filename.nopatch.
+ 		Example: 
+ 			To block "scripts/myspecialver.iss" from updating;
+ 			Create "scripts/myspecialver.iss.nopatch"
+ 		
+ 	- Added ability for patcher to patch itself
+	- When files are updated, the previous two versions are stored as filename.backup1/2
+	 
+2007-03-03 - Amadeus
+	- Initial Release
