@@ -242,7 +242,7 @@ namespace Metatron.BehaviorModules
 
                 if (HasMaxRuntimeExpired()) return;
             }
-            if (CheckCargo())
+            if (CheckCargo() && !_meCache.InStation)
             {
                 _moveToDropOff = true;
             }
